@@ -42,6 +42,7 @@
     <div style="display:flex;justify-content:center">
       <h2>Armour for</h2>
       <select id="area-filter" style="margin: auto 0.5rem;font-size:1rem;font-weight:bold">
+        <option value="-">Everywhere</option>
         <option value="head">Head</option>
         <option value="neck">Neck</option>
         <option value="arms">Arms</option>
@@ -62,7 +63,7 @@
       const selection = e.target.selectedOptions[0].value;
       const table = document.getElementById('armours');
       for (const row of table.querySelectorAll('tbody > tr')) {
-        if (row.childNodes[9].innerHTML === selection) {
+        if (row.childNodes[9].innerHTML === selection || selection === "-") {
           row.style.display = null;
           continue;
         }
