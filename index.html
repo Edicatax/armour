@@ -251,7 +251,7 @@
     }
 
     const request = async () => {
-      const response = await fetch("/armours.csv");
+      const response = await fetch("armours.csv");
       const csv = await response.text();
       const csvArray = await parseCsv(csv,';');
       const csvHeader = csvArray.shift();
