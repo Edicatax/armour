@@ -15,31 +15,33 @@
   }
 </style>
 </head>
-<body>
-  <h1>Equipment Mannequin</h1>
-  <h2>Equipment</h2>
-  <div id="equipment">
-    <h3>Head</h3>
-    <table id="head" style="display:none;"><tbody></tbody></table>
-    <h3>Neck</h3>
-    <table id="neck" style="display:none;"><tbody></tbody></table>
-    <h3>Arms</h3>
-    <table id="arms" style="display:none;"><tbody></tbody></table>
-    <h3>Hands</h3>
-    <table id="hands" style="display:none;"><tbody></tbody></table>
-    <h3>Chest</h3>
-    <table id="chest" style="display:none;"><tbody></tbody></table>
-    <h3>Abdomen</h3>
-    <table id="abdomen" style="display:none;"><tbody></tbody></table>
-    <h3>Back</h3>
-    <table id="back" style="display:none;"><tbody></tbody></table>
-    <h3>Legs</h3>
-    <table id="legs" style="display:none;"><tbody></tbody></table>
-    <h3>Feet</h3>
-    <table id="feet" style="display:none;"><tbody></tbody></table>
+<body style="margin:0;font-family:helvetica;background-color:#e0e0e0;display:flex;justify-content:center">
+  <div style="background-color:#fff;padding:1rem 2rem">
+    <h1>Equipment Mannequin</h1>
+    <h2>Equipment</h2>
+    <div id="equipment">
+      <h3>Head</h3>
+      <table id="head" style="display:none;"><tbody></tbody></table>
+      <h3>Neck</h3>
+      <table id="neck" style="display:none;"><tbody></tbody></table>
+      <h3>Arms</h3>
+      <table id="arms" style="display:none;"><tbody></tbody></table>
+      <h3>Hands</h3>
+      <table id="hands" style="display:none;"><tbody></tbody></table>
+      <h3>Chest</h3>
+      <table id="chest" style="display:none;"><tbody></tbody></table>
+      <h3>Abdomen</h3>
+      <table id="abdomen" style="display:none;"><tbody></tbody></table>
+      <h3>Back</h3>
+      <table id="back" style="display:none;"><tbody></tbody></table>
+      <h3>Legs</h3>
+      <table id="legs" style="display:none;"><tbody></tbody></table>
+      <h3>Feet</h3>
+      <table id="feet" style="display:none;"><tbody></tbody></table>
+    </div>
+    <h2>Armours</h2>
+    <table id="armours"></table>
   </div>
-  <h2>Armours</h2>
-  <table id="armours"></table>
   <script type="text/javascript">
     const parseCsv = async ( strData, strDelimiter ) => {
       strDelimiter = (strDelimiter || ",");
