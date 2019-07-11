@@ -1,0 +1,549 @@
+﻿Name;Type;Weight;Temperature;Sharp Vurdere;Pierce Vurdere;Blunt Vurdere;Coverage;Layer;Layer area
+Fluffy headband;Standard;1 lbs;1;Ineffective;Amazingly poor;Poor;Hd Nk;1;head
+Kabuto helm;Standard;8 lbs;3;Very good;Good;Average;Hd Nk;1;head
+Klatchian steel brigandine coif;Custom;5 lbs;0;Average;Good;Extremely good;Hd Nk;1;head
+Klatchian steel lamellar coif;Custom;5 lbs;0;Good;Average;Extremely good;Hd Nk;1;head
+Klatchian steel mail coif;Custom;11 lbs;0;Extremely good;Good;;Hd Nk;1;head
+Leather brigandine coif;Custom;2 lbs;0;Poor;Poor;Ok;Hd Nk;1;head
+Leather lamellar coif;Custom;2 lbs;0;Poor;Poor;Ok;Hd Nk;1;head
+Mail coif;Standard;10 lbs;-2;Good;Good;Ok;Hd Nk;1;head
+Black widow mask;Standard;5 lbs;1;Excellent;Extremely good;Very good;Hd;2;head
+Cobra mask;Standard;5 lbs;1;Excellent;Extremely good;Very good;Hd;2;head
+Heavy face mask;Standard;7 lbs;1;Very good;Average;Average;Hd;2;head
+Klatchian steel helm;Custom;4 lbs;0;Excellent;Excellent;Extremely good;Hd;2;head
+Leather helm;Custom;1 lbs;0;Good;Average;Ok;Hd;2;head
+Mempo mask (steel);Standard;5 lbs;1;Extremely good;Ok;Good;Hd;2;head
+Raven mask;Standard;5 lbs;1;Excellent;Extremely good;Very good;Hd;2;head
+Scorpion mask;Standard;5 lbs;1;Excellent;Extremely good;Very good;Hd;2;head
+Somen mask (iron);Standard;6 lbs;2;Poor;Poor;Average;Hd;2;head
+Somen mask (steel);Standard;6 lbs;1;Ok;Average;Very good;Hd;2;head
+Viper mask;Standard;5 lbs;1;Excellent;Extremely good;Very good;Hd;2;head
+Armet;Standard;7 lbs;1;Excellent;Good;Extremely good;Hd;3;head
+Bone helm;Standard;5 lbs;1;Pretty poor;Poor;Poor;Hd;3;head
+Bronze helm;Standard;5 lbs;1;Average;Ok;Poor;Hd;3;head
+Burgonet;Standard;6 lbs;1;Excellent;Extremely good;Good;Hd;3;head
+Cervilliere;Standard;6 lbs;1;Excellent;Extremely good;Good;Hd;3;head
+Close helm;Standard;7 lbs;1;Excellent;Good;Extremely good;Hd;3;head
+Fluffy helmet;Standard;10 lbs;1;Excellent;Good;Extremely good;Hd;3;head
+Fur-lined leather cap with earflaps;Standard;2 lbs;1;Amazingly poor;Amazingly poor;Poor;Hd;3;head
+Great helm;Standard;10 lbs;0;Excellent;Good;Extremely good;Hd;3;head
+Hard leather cap;Standard;1 lbs;1;Average;Poor;Ok;Hd;3;head
+Horned dwarven helmet;Standard;5 lbs;1;Ok;Poor;Average;Hd;3;head
+Horned helm;Standard;5 lbs;1;Very good;Good;Average;Hd;3;head
+Kettle helm;Standard;7 lbs;1;Excellent;Good;Extremely good;Hd;3;head
+Metal helm;Standard;9 lbs;-1;Very good;Good;Average;Hd;3;head
+Metal helm (light source);Standard;9 lbs;-1;Very good;Average;Good;Hd;3;head
+Miners helmet;Standard;7 lbs;1;Extremely good;Average;Extremely good;Hd;3;head
+Morion;Standard;6 lbs;1;Excellent;Good;Extremely good;Hd;3;head
+Offler-headed mask;Standard;7 lbs;1;Excellent;Excellent;Extremely good;Hd;3;head
+Peaked cap;Standard;2 lbs;2;Excellent;Good;Extremely good;Hd;3;head
+Pig-faced bascinet;Standard;6 lbs;2;Excellent;Good;Extremely good;Hd Nk;3;head
+Plumed imperial helmet;Standard;10 lbs;1;Very good;Good;Average;Hd;3;head
+Riding helmet;Standard;3 lbs;1;Ok;Poor;Poor;Hd;3;head
+Spangenhelm;Standard;6 lbs;1;Excellent;Good;Extremely good;Hd;3;head
+Spiked helmet;Standard;10 lbs;1;Excellent;Good;Extremely good;Hd;3;head
+Tsortean metal helmet;Standard;10 lbs;-1;Excellent;Good;Extremely good;Hd;3;head
+Vendel helm;Standard;6 lbs;1;Extremely good;Good;Average;Hd;3;head
+Visored sallet;Standard;7 lbs;-1;Excellent;Good;Extremely good;Hd;3;head
+Winged helm;Standard;7 lbs;1;Very good;Ok;Average;Hd;3;head
+Padded leather cap;Standard;1 lbs;1;Pretty poor;Pretty poor;Ok;Hd;4;head
+Fluffy headband;Standard;1 lbs;1;Ineffective;Amazingly poor;Poor;Hd Nk;1;neck
+Kabuto helm;Standard;8 lbs;3;Very good;Good;Average;Hd Nk;1;neck
+Klatchian steel brigandine coif;Custom;5 lbs;0;Average;Good;Extremely good;Hd Nk;1;neck
+Klatchian steel lamellar coif;Custom;5 lbs;0;Good;Average;Extremely good;Hd Nk;1;neck
+Klatchian steel mail coif;Custom;11 lbs;0;Extremely good;Good;;Hd Nk;1;neck
+Leather brigandine coif;Custom;2 lbs;0;Poor;Poor;Ok;Hd Nk;1;neck
+Leather lamellar coif;Custom;2 lbs;0;Poor;Poor;Ok;Hd Nk;1;neck
+Mail coif;Standard;10 lbs;-2;Good;Good;Ok;Hd Nk;1;neck
+Bishamon gote (steel, steel);Standard;15 lbs;4;Excellent;Good;Extremely good;Nk Ams Hds;2;neck
+Chocolate bevor;Standard;0 lbs;1;Ok;Poor;Poor;Nk;2;neck
+Corded sode (steel);Standard;11 lbs;2;Poor;Poor;Average;Nk;2;neck
+Gigantic dog collar;Standard;1 lbs;1;Average;Ok;Poor;Nk;2;neck
+Klatchian steel brigandine aventail;Custom;1 lbs;0;Average;Good;Extremely good;Nk;2;neck
+Klatchian steel brigandine bevor;Custom;1 lbs;0;Average;Good;Extremely good;Nk;2;neck
+Klatchian steel brigandine camail;Custom;1 lbs;0;Average;Good;Extremely good;Nk;2;neck
+Klatchian steel brigandine collar;Custom;1 lbs;0;Average;Good;Extremely good;Nk;2;neck
+Klatchian steel brigandine gorget;Custom;1 lbs;0;Average;Good;Extremely good;Nk;2;neck
+Klatchian steel lamellar aventail;Custom;1 lbs;0;Good;Average;Extremely good;Nk;2;neck
+Klatchian steel lamellar bevor;Custom;1 lbs;0;Good;Average;Extremely good;Nk;2;neck
+Klatchian steel lamellar camail;Custom;1 lbs;0;Good;Average;Extremely good;Nk;2;neck
+Klatchian steel lamellar collar;Custom;1 lbs;0;Good;Average;Extremely good;Nk;2;neck
+Klatchian steel lamellar gorget;Custom;1 lbs;0;Good;Average;Extremely good;Nk;2;neck
+Klatchian steel mail aventail;Custom;2 lbs;0;Excellent;Extremely good;Good;Nk;2;neck
+Klatchian steel mail camail;Custom;2 lbs;0;Excellent;Extremely good;Good;Nk;2;neck
+Klatchian steel plate bevor;Custom;2 lbs;0;Excellent;Excellent;Extremely good;Nk;2;neck
+Klatchian steel plate collar;Custom;2 lbs;0;Excellent;Excellent;Extremely good;Nk;2;neck
+Klatchian steel plate gorget;Custom;2 lbs;0;Excellent;Excellent;Extremely good;Nk;2;neck
+Leather bevor;Standard;1 lbs;1;Poor;Pretty poor;Pretty poor;Nk;2;neck
+Leather brigandine aventail;Custom;1 lbs;0;Poor;Poor;Ok;Nk;2;neck
+Leather brigandine bevor;Custom;1 lbs;0;Poor;Poor;Ok;Nk;2;neck
+Leather brigandine camail;Custom;1 lbs;0;Poor;Poor;Ok;Nk;2;neck
+Leather brigandine collar;Custom;1 lbs;0;Poor;Poor;Ok;Nk;2;neck
+Leather brigandine gorget;Custom;1 lbs;0;Poor;Poor;Ok;Nk;2;neck
+Leather gorget;Standard;1 lbs;2;Average;Poor;Average;Nk;2;neck
+Leather lamellar aventail;Custom;1 lbs;0;Poor;Poor;Ok;Nk;2;neck
+Leather lamellar bevor;Custom;1 lbs;0;Poor;Poor;Ok;Nk;2;neck
+Leather lamellar camail;Custom;1 lbs;0;Poor;Poor;Ok;Nk;2;neck
+Leather lamellar collar;Custom;1 lbs;0;Poor;Poor;Ok;Nk;2;neck
+Leather lamellar gorget;Custom;1 lbs;0;Poor;Poor;Ok;Nk;2;neck
+Leather plate bevor;Custom;1 lbs;0;Good;Average;Ok;Nk;2;neck
+Leather plate collar;Custom;1 lbs;0;Good;Average;Ok;Nk;2;neck
+Leather plate gorget;Custom;1 lbs;0;Good;Average;Ok;Nk;2;neck
+Neckirons;Standard;2 lbs;-1;Extremely good;Good;Average;Nk;2;neck
+Pig-faced bascinet;Standard;6 lbs;2;Excellent;Good;Extremely good;Hd Nk;2;neck
+Steel bevor;Standard;3 lbs;-1;Excellent;Excellent;Extremely good;Nk;2;neck
+Yodare kake guard;Standard;2 lbs;1;Pretty poor;Pretty poor;Poor;Nk;2;neck
+Klatchian steel brigandine hauberk;Custom;32 lbs;0;Average;Good;Extremely good;Ams Ch Ab Bk Lgs;1;arms
+Klatchian steel chain hauberk;Custom;41 lbs;0;Excellent;Extremely good;Good;Ams Ch Ab Bk Lgs;1;arms
+Klatchian steel lamellar hauberk;Custom;37 lbs;0;Good;Average;Extremely good;Ams Ch Ab Bk Lgs;1;arms
+Leather brigandine hauberk;Custom;13 lbs;0;Poor;Poor;Ok;Ams Ch Ab Bk Lgs;1;arms
+Leather lamellar hauberk;Custom;13 lbs;0;Poor;Poor;Ok;Ams Ch Ab Bk Lgs;1;arms
+Padded woolen kaftan;Standard;2 lbs;3;Amazingly poor;Amazingly poor;Ok;Ams Ch Bk;1;arms
+Fluffy cloak;Standard;6 lbs;4;Amazingly poor;Amazingly poor;Poor;Ams Ch Bk;2;arms
+Grflx scale;Standard;20 lbs;3;Excellent;Excellent;Extremely good;Ams Ch Bk;2;arms
+Klatchian steel brigandine bracers;Custom;5 lbs;0;Average;Good;Extremely good;Ams;2;arms
+Klatchian steel brigandine vambraces;Custom;5 lbs;0;Average;Good;Extremely good;Ams;2;arms
+Klatchian steel lamellar bracers;Custom;5 lbs;0;Good;Average;Extremely good;Ams;2;arms
+Klatchian steel lamellar vambraces;Custom;5 lbs;0;Good;Average;Extremely good;Ams;2;arms
+Klatchian steel mail bracers;Custom;6 lbs;0;Excellent;Extremely good;Good;Ams;2;arms
+Klatchian steel mail vambraces;Custom;6 lbs;0;Excellent;Extremely good;Good;Ams;2;arms
+Klatchian steel plate bracers;Custom;7 lbs;0;Excellent;Excellent;Extremely good;Ams;2;arms
+Klatchian steel plate vambraces;Custom;7 lbs;0;Excellent;Excellent;Extremely good;Ams;2;arms
+Leather brigandine bracers;Custom;2 lbs;0;Poor;Poor;Ok;Ams;2;arms
+Leather brigandine vambraces;Custom;2 lbs;0;Poor;Poor;Ok;Ams;2;arms
+Leather jacket;Standard;7 lbs;2;Amazingly poor;Amazingly poor;Poor;Ams Ch Bk;2;arms
+Leather lamellar bracers;Custom;2 lbs;0;Poor;Poor;Ok;Ams;2;arms
+Leather lamellar vambraces;Custom;2 lbs;0;Poor;Poor;Ok;Ams;2;arms
+Leather plate bracers;Custom;2 lbs;0;Good;Average;Ok;Ams;2;arms
+Leather plate vambraces;Custom;2 lbs;0;Good;Average;Ok;Ams;2;arms
+Studded leather jacket;Standard;15 lbs;2;Poor;Poor;Average;Ams Ch Bk;2;arms
+Black mail hauberk;Standard;30 lbs;-3;Very good;Average;Ok;Ams Ch Ab Bk Lgs;3;arms
+Bonemail;Standard;20 lbs;3;Pretty poor;Amazingly poor;Amazingly poor;Ams Ch Ab Bk Lgs;3;arms
+Jazerant armour;Standard;40 lbs;3;Very good;Good;Ok;Ams Ch Ab Bk Lgs;3;arms
+Mail hauberk;Standard;30 lbs;-3;Extremely good;Good;Average;Ams Ch Ab Bk Lgs;3;arms
+Overalls;Standard;4 lbs;0;Amazingly poor;Terrible;Terrible;Ams Ch Ab Bk Lgs;3;arms
+Ringmail hauberk;Standard;20 lbs;3;Poor;Ok;Good;Ams Ch Ab Bk Lgs;3;arms
+Scale armour;Standard;30 lbs;-2;Pretty poor;Pretty poor;Poor;Ams Ch Ab Bk;3;arms
+Short scaly robe (steel);Standard;15 lbs;3;Average;Poor;Poor;Ams Ch Ab Bk Lgs;3;arms
+Tatami do;Standard;30 lbs;3;Poor;Ok;Good;Ams Ch Ab Bk Lgs;3;arms
+Bishamon gote (steel, steel);Standard;15 lbs;4;Excellent;Good;Extremely good;Nk Ams Hds;4;arms
+Chocolate vambraces;Standard;3 lbs;1;Ok;Poor;Poor;Ams;4;arms
+Kote (iron);Standard;5 lbs;2;Ok;Average;Very good;Ams;4;arms
+Kote (steel);Standard;5 lbs;2;Pretty poor;Poor;Ok;Ams;4;arms
+Leather vambraces;Standard;2 lbs;1;Pretty poor;Amazingly poor;Pretty poor;Ams;4;arms
+Steel vambraces;Standard;7 lbs;-1;Excellent;Good;Extremely good;Ams;4;arms
+Studded leather wristlets;Standard;0 lbs;1;Average;Ok;Pretty poor;Ams;4;arms
+Bishamon gote (steel, steel);Standard;15 lbs;4;Excellent;Good;Extremely good;Nk Ams Hds;1;hands
+Chocolate gauntlets;Standard;0 lbs;1;Amazingly poor;Poor;Pretty poor;Hds;1;hands
+Gloves;Standard;5 lbs;1;Excellent;Good;Extremely good;Hds;1;hands
+Iron gauntlets;Standard;3 lbs;1;Poor;Poor;Average;Hds;1;hands
+Klatchian steel brigandine gauntlets;Custom;1 lbs;0;Average;Good;Extremely good;Hds;1;hands
+Klatchian steel brigandine gloves;Custom;1 lbs;0;Average;Good;Extremely good;Hds;1;hands
+Klatchian steel brigandine mittens;Custom;1 lbs;0;Average;Good;Extremely good;Hds;1;hands
+Klatchian steel lamellar gauntlets;Custom;1 lbs;0;Good;Average;Extremely good;Hds;1;hands
+Klatchian steel lamellar gloves;Custom;1 lbs;0;Good;Average;Extremely good;Hds;1;hands
+Klatchian steel lamellar mittens;Custom;1 lbs;0;Good;Average;Extremely good;Hds;1;hands
+Klatchian steel mail gauntlets;Custom;2 lbs;0;Excellent;Extremely good;Good;Hds;1;hands
+Klatchian steel mail gloves;Custom;2 lbs;0;Excellent;Extremely good;Good;Hds;1;hands
+Klatchian steel mail mittens;Custom;2 lbs;0;Excellent;Extremely good;Good;Hds;1;hands
+Klatchian steel plate gauntlets;Custom;2 lbs;0;Excellent;Extremely good;Good;Hds;1;hands
+Klatchian steel plate gloves;Custom;2 lbs;0;Excellent;Extremely good;Good;Hds;1;hands
+Klatchian steel plate mittens;Custom;2 lbs;0;Excellent;Extremely good;Good;Hds;1;hands
+Leather brigandine;Custom;1 lbs;0;Poor;Poor;Ok;Hds;1;hands
+Leather gloves;Standard;0 lbs;1;Amazingly poor;Amazingly poor;Pretty poor;Hds;1;hands
+Leather lamellar gauntlets;Custom;1 lbs;0;Poor;Poor;Ok;Hds;1;hands
+Leather lamellar gloves;Custom;1 lbs;0;Poor;Poor;Ok;Hds;1;hands
+Leather lamellar mittens;Custom;1 lbs;0;Poor;Poor;Ok;Hds;1;hands
+Leather mesh gloves;Standard;0 lbs;1;Amazingly poor;Amazingly poor;Pretty poor;Hds;1;hands
+Leather plate gauntlets;Custom;1 lbs;0;Good;Average;Ok;Hds;1;hands
+Leather plate gloves;Custom;1 lbs;0;Good;Average;Ok;Hds;1;hands
+Leather plate mittens;Custom;1 lbs;0;Good;Average;Ok;Hds;1;hands
+Mail mittens;Standard;3 lbs;-1;Good;Average;Ok;Hds;1;hands
+Metal gauntlets;Standard;4 lbs;1;Excellent;Good;Extremely good;Hds;1;hands
+Steel gauntlets;Standard;4 lbs;-1;Excellent;Good;Extremely good;Hds;1;hands
+Tekko guards (iron);Standard;3 lbs;1;Pretty poor;Pretty poor;Poor;Hds;1;hands
+Tekko guards (steel);Standard;3 lbs;1;Poor;Ok;Good;Hds;1;hands
+Klatchian steel brigandine hauberk;Custom;32 lbs;0;Average;Good;Extremely good;Ams Ch Ab Bk Lgs;1;chest
+Klatchian steel chain hauberk;Custom;41 lbs;0;Excellent;Extremely good;Good;Ams Ch Ab Bk Lgs;1;chest
+Klatchian steel lamellar hauberk;Custom;37 lbs;0;Good;Average;Extremely good;Ams Ch Ab Bk Lgs;1;chest
+Leather brigandine hauberk;Custom;13 lbs;0;Poor;Poor;Ok;Ams Ch Ab Bk Lgs;1;chest
+Leather lamellar hauberk;Custom;13 lbs;0;Poor;Poor;Ok;Ams Ch Ab Bk Lgs;1;chest
+Leather undershirt;Standard;2 lbs;2;Amazingly poor;Amazingly poor;Pretty poor;Ch Bk;1;chest
+Klatchian steel brigandine byrnie;Custom;17 lbs;0;Average;Good;Extremely good;Ch Ab Bk;2;chest
+Klatchian steel brigandine cuirass;Custom;17 lbs;0;Average;Good;Extremely good;Ch Ab Bk;2;chest
+Klatchian steel brigandine haubergeon;Custom;17 lbs;0;Average;Good;Extremely good;Ch Ab Bk;2;chest
+Klatchian steel brigandine jacket;Custom;17 lbs;0;Average;Good;Extremely good;Ch Ab Bk;2;chest
+Klatchian steel brigandine shirt;Custom;17 lbs;0;Average;Good;Extremely good;Ch Ab Bk;2;chest
+Klatchian steel lamellar byrnie;Custom;19 lbs;0;Good;Average;Extremely good;Ch Ab Bk;2;chest
+Klatchian steel lamellar cuirass;Custom;19 lbs;0;Good;Average;Extremely good;Ch Ab Bk;2;chest
+Klatchian steel lamellar haubergeon;Custom;19 lbs;0;Good;Average;Extremely good;Ch Ab Bk;2;chest
+Klatchian steel lamellar jacket;Custom;19 lbs;0;Good;Average;Extremely good;Ch Ab Bk;2;chest
+Klatchian steel lamellar shirt;Custom;19 lbs;0;Good;Average;Extremely good;Ch Ab Bk;2;chest
+Klatchian steel mail byrnie;Custom;22 lbs;0;Excellent;Extremely good;Good;Ch Ab Bk;2;chest
+Klatchian steel mail haubergeon;Custom;22 lbs;0;Excellent;Extremely good;Good;Ch Ab Bk;2;chest
+Klatchian steel mail jacket;Custom;22 lbs;0;Excellent;Extremely good;Good;Ch Ab Bk;2;chest
+Klatchian steel mail shirt;Custom;22 lbs;0;Excellent;Extremely good;Good;Ch Ab Bk;2;chest
+Klatchian steel muscled cuirass;Custom;24 lbs;0;Excellent;Excellent;Extremely good;Ch Ab Bk;2;chest
+Leather brigandine byrnie;Custom;6 lbs;0;Poor;Poor;Ok;Ch Ab Bk;2;chest
+Leather brigandine cuirass;Custom;6 lbs;0;Poor;Poor;Ok;Ch Ab Bk;2;chest
+Leather brigandine haubergeon;Custom;6 lbs;0;Poor;Poor;Ok;Ch Ab Bk;2;chest
+Leather brigandine jacket;Custom;6 lbs;0;Poor;Poor;Ok;Ch Ab Bk;2;chest
+Leather brigandine shirt;Custom;6 lbs;0;Poor;Poor;Ok;Ch Ab Bk;2;chest
+Leather lamellar byrnie;Custom;7 lbs;0;Poor;Poor;Ok;Ch Ab Bk;2;chest
+Leather lamellar cuirass;Custom;7 lbs;0;Poor;Poor;Ok;Ch Ab Bk;2;chest
+Leather lamellar haubergeon;Custom;7 lbs;0;Poor;Poor;Ok;Ch Ab Bk;2;chest
+Leather lamellar jacket;Custom;7 lbs;0;Poor;Poor;Ok;Ch Ab Bk;2;chest
+Leather lamellar shirt;Custom;7 lbs;0;Poor;Poor;Ok;Ch Ab Bk;2;chest
+Leather muscled cuirass;Custom;9 lbs;0;Good;Average;Ok;Ch Ab Bk;2;chest
+Padded woolen kaftan;Standard;2 lbs;3;Amazingly poor;Amazingly poor;Ok;Ams Ch Bk;2;chest
+Black mail hauberk;Standard;30 lbs;-3;Very good;Average;Ok;Ams Ch Ab Bk Lgs;3;chest
+Bonemail;Standard;20 lbs;3;Pretty poor;Amazingly poor;Amazingly poor;Ams Ch Ab Bk Lgs;3;chest
+Jazerant armour;Standard;40 lbs;3;Very good;Good;Ok;Ams Ch Ab Bk Lgs;3;chest
+Klatchian steel brigandine bikini top;Custom;11 lbs;0;Average;Good;Extremely good;Ch Ab;3;chest
+Klatchian steel brigandine brassiere;Custom;11 lbs;0;Average;Good;Extremely good;Ch Ab;3;chest
+Klatchian steel brigandine breastplate;Custom;11 lbs;0;Average;Good;Extremely good;Ch Ab;3;chest
+Klatchian steel brigandine halter;Custom;11 lbs;0;Average;Good;Extremely good;Ch Ab;3;chest
+Klatchian steel lamellar bikini top;Custom;11 lbs;0;Average;Good;Extremely good;Ch Ab;3;chest
+Klatchian steel lamellar brassiere;Custom;11 lbs;0;Average;Good;Extremely good;Ch Ab;3;chest
+Klatchian steel lamellar breastplate;Custom;11 lbs;0;Average;Good;Extremely good;Ch Ab;3;chest
+Klatchian steel lamellar halter;Custom;11 lbs;0;Average;Good;Extremely good;Ch Ab;3;chest
+Klatchian steel mail bikini top;Custom;17 lbs;0;Excellent;Excellent;Extremely good;Ch Ab;3;chest
+Klatchian steel mail brassiere;Custom;17 lbs;0;Excellent;Excellent;Extremely good;Ch Ab;3;chest
+Klatchian steel mail halter;Custom;17 lbs;0;Excellent;Excellent;Extremely good;Ch Ab;3;chest
+Klatchian steel muscled breastplate;Custom;17 lbs;0;Excellent;Excellent;Extremely good;Ch Ab;3;chest
+Leather brigandine bikini top;Custom;4 lbs;0;Poor;Poor;Ok;Ch Ab;3;chest
+Leather brigandine brassiere;Custom;4 lbs;0;Poor;Poor;Ok;Ch Ab;3;chest
+Leather brigandine breastplate;Custom;4 lbs;0;Poor;Poor;Ok;Ch Ab;3;chest
+Leather brigandine halter;Custom;4 lbs;0;Poor;Poor;Ok;Ch Ab;3;chest
+Leather lamellar bikini top;Custom;5 lbs;0;Poor;Poor;Ok;Ch Ab;3;chest
+Leather lamellar brassiere;Custom;5 lbs;0;Poor;Poor;Ok;Ch Ab;3;chest
+Leather lamellar breastplate;Custom;5 lbs;0;Poor;Poor;Ok;Ch Ab;3;chest
+Leather lamellar halter;Custom;5 lbs;0;Poor;Poor;Ok;Ch Ab;3;chest
+Leather muscled breastplate;Custom;6 lbs;0;Good;Average;Ok;Ch Ab;3;chest
+Mail hauberk;Standard;30 lbs;-3;Extremely good;Good;Average;Ams Ch Ab Bk Lgs;3;chest
+Overalls;Standard;4 lbs;0;Amazingly poor;Terrible;Terrible;Ams Ch Ab Bk Lgs;3;chest
+Ringmail hauberk;Standard;20 lbs;3;Poor;Ok;Good;Ams Ch Ab Bk Lgs;3;chest
+Short scaly robe (steel);Standard;15 lbs;3;Average;Poor;Poor;Ams Ch Ab Bk Lgs;3;chest
+Tatami do;Standard;30 lbs;3;Poor;Ok;Good;Ams Ch Ab Bk Lgs;3;chest
+Fluffy cloak;Standard;6 lbs;4;Amazingly poor;Amazingly poor;Poor;Ams Ch Bk;4;chest
+Grflx scale;Standard;20 lbs;3;Excellent;Excellent;Extremely good;Ams Ch Bk;4;chest
+Leather jacket;Standard;7 lbs;2;Amazingly poor;Amazingly poor;Poor;Ams Ch Bk;4;chest
+Scale armour;Standard;30 lbs;-2;Pretty poor;Pretty poor;Poor;Ams Ch Ab Bk;4;chest
+Studded leather jacket;Standard;15 lbs;2;Poor;Poor;Average;Ams Ch Bk;4;chest
+Brigandine armour;Standard;15 lbs;2;Ok;Average;Very good;Ch Ab Bk;5;chest
+Bronze cuirass;Standard;40 lbs;-2;Average;Ok;Poor;Ch Ab Bk;5;chest
+Chainmail bikini top;Standard;4 lbs;-1;Average;Ok;Ok;Ch;5;chest
+Chainmail minidress;Standard;15 lbs;-2;Very good;Average;Ok;Ch Ab Bk;5;chest
+Chainmail shirt;Standard;30 lbs;-2;Good;Average;Ok;Ch Ab Bk;5;chest
+Keiko;Standard;30 lbs;2;Poor;Poor;Average;Ch Ab Bk;5;chest
+Mail shirt;Standard;15 lbs;-2;Excellent;Good;Very good;Ch Ab Bk;5;chest
+Splinted metal cuirass;Standard;30 lbs;2;Amazingly poor;Amazingly poor;Pretty poor;Ch Ab Bk;5;chest
+Splintmail;Standard;20 lbs;-2;Ok;Poor;Average;Ch Ab Bk;5;chest
+Tanko;Standard;10 lbs;2;Ok;Poor;Ok;Ch Ab Bk;5;chest
+Tiny chainmail shirt;Standard;7 lbs;0;Good;Ok;Ok;Ch Ab Bk;5;chest
+42 d-cup spikey iron breastplate;Standard;10 lbs;-2;Extremely good;Average;Ok;Ch Ab;6;chest
+Brass breastplate;Standard;15 lbs;-2;Very good;Average;Average;Ch Ab;6;chest
+Chainmail bikini;Standard;7 lbs;-1;Average;Ok;Poor;Ch Ab;6;chest
+Chainmail halter top;Standard;10 lbs;-2;Very good;Average;Ok;Ch Ab;6;chest
+Chocolate breastplate;Standard;4 lbs;2;Ok;Poor;Poor;Ch Ab;6;chest
+Djelian aegis;Standard;11 lbs;2;Ok;Poor;Good;Ch Ab Bk;6;chest
+Do maru;Standard;30 lbs;2;Very good;Good;Average;Ch Ab Bk;6;chest
+Hammered breastplate;Standard;15 lbs;-2;Extremely good;Good;Average;Ch Ab;6;chest
+Hardened leather breastplate;Standard;7 lbs;2;Ok;Average;Very good;Ch Ab;6;chest
+Iron breastplate;Standard;13 lbs;-2;Extremely good;Good;Average;Ch Ab;6;chest
+Laced-up leather breastplate;Standard;3 lbs;2;Average;Ok;Poor;Ch Ab;6;chest
+Leather breastplate;Standard;4 lbs;2;Average;Ok;Poor;Ch Ab;6;chest
+Leather jerkin;Standard;7 lbs;2;Amazingly poor;Amazingly poor;Poor;Ch Ab Bk;6;chest
+Mirrored breastplate;Standard;7 lbs;2;Poor;Ok;Good;Ch Ab;6;chest
+Padded aketon;Standard;6 lbs;2;Amazingly poor;Amazingly poor;Poor;Ch Ab Bk;6;chest
+Steel breastplate;Standard;13 lbs;-2;Excellent;Very good;Extremely good;Ch Ab;6;chest
+Studded leather jerkin;Standard;10 lbs;2;Poor;Poor;Average;Ch Ab Bk;6;chest
+Chainmail miniskirt;Standard;11 lbs;-2;Very good;Average;Ok;Ab;1;abdomen
+Djelian loincloth belt;Standard;5 lbs;-1;Very good;Good;Ok;Ab;1;abdomen
+Iron protective;Standard;3 lbs;-1;Very good;Average;Ok;Ab;1;abdomen
+Klatchian steel brigandine miniskirt;Custom;5 lbs;0;Average;Good;Extremely good;Ab;1;abdomen
+Klatchian steel brigandine protective;Custom;5 lbs;0;Average;Good;Extremely good;Ab;1;abdomen
+Klatchian steel brigandine underwear;Custom;5 lbs;0;Average;Good;Extremely good;Ab;1;abdomen
+Klatchian steel lamellar miniskirt;Custom;5 lbs;0;Good;Average;Extremely good;Ab;1;abdomen
+Klatchian steel lamellar protective;Custom;5 lbs;0;Good;Average;Extremely good;Ab;1;abdomen
+Klatchian steel lamellar underwear;Custom;5 lbs;0;Good;Average;Extremely good;Ab;1;abdomen
+Klatchian steel mail miniskirt;Custom;6 lbs;0;Excellent;Extremely good;Good;Ab;1;abdomen
+Klatchian steel mail protective;Custom;6 lbs;0;Excellent;Extremely good;Good;Ab;1;abdomen
+Klatchian steel mail underwear;Custom;6 lbs;0;Excellent;Extremely good;Good;Ab;1;abdomen
+Klatchian steel plate miniskirt;Custom;7 lbs;0;Excellent;Excellent;Extremely good;Ab;1;abdomen
+Klatchian steel plate protective;Custom;7 lbs;0;Excellent;Excellent;Extremely good;Ab;1;abdomen
+Klatchian steel plate underwear;Custom;7 lbs;0;Excellent;Excellent;Extremely good;Ab;1;abdomen
+Leather brigandine miniskirt;Custom;2 lbs;0;Poor;Poor;Ok;Ab;1;abdomen
+Leather brigandine protective;Custom;2 lbs;0;Poor;Poor;Ok;Ab;1;abdomen
+Leather brigandine underwear;Custom;2 lbs;0;Poor;Poor;Ok;Ab;1;abdomen
+Leather lamellar miniskirt;Custom;2 lbs;0;Poor;Poor;Ok;Ab;1;abdomen
+Leather lamellar protective;Custom;2 lbs;0;Poor;Poor;Ok;Ab;1;abdomen
+Leather lamellar underwear;Custom;2 lbs;0;Poor;Poor;Ok;Ab;1;abdomen
+Leather miniskirt;Standard;4 lbs;2;Amazingly poor;Poor;Amazingly poor;Ab;1;abdomen
+Leather plate miniskirt;Custom;2 lbs;0;Good;Average;Ok;Ab;1;abdomen
+Leather plate protective;Custom;2 lbs;0;Good;Average;Ok;Ab;1;abdomen
+Leather plate underwear;Custom;2 lbs;0;Good;Average;Ok;Ab;1;abdomen
+Leather shorts;Standard;1 lbs;1;Amazingly poor;Poor;Amazingly poor;Ab;1;abdomen
+Padded manchiru;Standard;2 lbs;1;Amazingly poor;Amazingly poor;Poor;Ab;1;abdomen
+Scalemail speedo;Standard;4 lbs;-1;Amazingly poor;Pretty poor;Poor;Ab;1;abdomen
+Heavy cotton breeches;Standard;0 lbs;2;Terrible;Terrible;Terrible;Ab Lgs;2;abdomen
+Klatchian steel brigandine hauberk;Custom;32 lbs;0;Average;Good;Extremely good;Ams Ch Ab Bk Lgs;2;abdomen
+Klatchian steel chain hauberk;Custom;41 lbs;0;Excellent;Extremely good;Good;Ams Ch Ab Bk Lgs;2;abdomen
+Klatchian steel lamellar hauberk;Custom;37 lbs;0;Good;Average;Extremely good;Ams Ch Ab Bk Lgs;2;abdomen
+Leather breeches;Standard;2 lbs;2;Amazingly poor;Amazingly poor;Poor;Ab Lgs;2;abdomen
+Leather brigandine hauberk;Custom;13 lbs;0;Poor;Poor;Ok;Ams Ch Ab Bk Lgs;2;abdomen
+Leather lamellar hauberk;Custom;13 lbs;0;Poor;Poor;Ok;Ams Ch Ab Bk Lgs;2;abdomen
+Mail hosen;Standard;20 lbs;-2;Pretty poor;Pretty poor;Average;Ab Lgs;2;abdomen
+Brown leather pleated skirt;Standard;5 lbs;2;Amazingly poor;Amazingly poor;Poor;Ab Lgs;3;abdomen
+Haidate skirt (steel);Standard;20 lbs;-2;Poor;Ok;Good;Ab Lgs;3;abdomen
+Klatchian steel brigandine byrnie;Custom;17 lbs;0;Average;Good;Extremely good;Ch Ab Bk;3;abdomen
+Klatchian steel brigandine cuirass;Custom;17 lbs;0;Average;Good;Extremely good;Ch Ab Bk;3;abdomen
+Klatchian steel brigandine haubergeon;Custom;17 lbs;0;Average;Good;Extremely good;Ch Ab Bk;3;abdomen
+Klatchian steel brigandine jacket;Custom;17 lbs;0;Average;Good;Extremely good;Ch Ab Bk;3;abdomen
+Klatchian steel brigandine shirt;Custom;17 lbs;0;Average;Good;Extremely good;Ch Ab Bk;3;abdomen
+Klatchian steel lamellar byrnie;Custom;19 lbs;0;Good;Average;Extremely good;Ch Ab Bk;3;abdomen
+Klatchian steel lamellar cuirass;Custom;19 lbs;0;Good;Average;Extremely good;Ch Ab Bk;3;abdomen
+Klatchian steel lamellar haubergeon;Custom;19 lbs;0;Good;Average;Extremely good;Ch Ab Bk;3;abdomen
+Klatchian steel lamellar jacket;Custom;19 lbs;0;Good;Average;Extremely good;Ch Ab Bk;3;abdomen
+Klatchian steel lamellar shirt;Custom;19 lbs;0;Good;Average;Extremely good;Ch Ab Bk;3;abdomen
+Klatchian steel mail byrnie;Custom;22 lbs;0;Excellent;Extremely good;Good;Ch Ab Bk;3;abdomen
+Klatchian steel mail haubergeon;Custom;22 lbs;0;Excellent;Extremely good;Good;Ch Ab Bk;3;abdomen
+Klatchian steel mail jacket;Custom;22 lbs;0;Excellent;Extremely good;Good;Ch Ab Bk;3;abdomen
+Klatchian steel mail shirt;Custom;22 lbs;0;Excellent;Extremely good;Good;Ch Ab Bk;3;abdomen
+Klatchian steel muscled cuirass;Custom;24 lbs;0;Excellent;Excellent;Extremely good;Ch Ab Bk;3;abdomen
+Leather brigandine byrnie;Custom;6 lbs;0;Poor;Poor;Ok;Ch Ab Bk;3;abdomen
+Leather brigandine cuirass;Custom;6 lbs;0;Poor;Poor;Ok;Ch Ab Bk;3;abdomen
+Leather brigandine haubergeon;Custom;6 lbs;0;Poor;Poor;Ok;Ch Ab Bk;3;abdomen
+Leather brigandine jacket;Custom;6 lbs;0;Poor;Poor;Ok;Ch Ab Bk;3;abdomen
+Leather brigandine shirt;Custom;6 lbs;0;Poor;Poor;Ok;Ch Ab Bk;3;abdomen
+Leather kilt;Standard;6 lbs;2;Amazingly poor;Amazingly poor;Poor;Ab Lgs;3;abdomen
+Leather lamellar byrnie;Custom;7 lbs;0;Poor;Poor;Ok;Ch Ab Bk;3;abdomen
+Leather lamellar cuirass;Custom;7 lbs;0;Poor;Poor;Ok;Ch Ab Bk;3;abdomen
+Leather lamellar haubergeon;Custom;7 lbs;0;Poor;Poor;Ok;Ch Ab Bk;3;abdomen
+Leather lamellar jacket;Custom;7 lbs;0;Poor;Poor;Ok;Ch Ab Bk;3;abdomen
+Leather lamellar shirt;Custom;7 lbs;0;Poor;Poor;Ok;Ch Ab Bk;3;abdomen
+Leather muscled cuirass;Custom;9 lbs;0;Good;Average;Ok;Ch Ab Bk;3;abdomen
+Mail skirt;Standard;20 lbs;-2;Good;Average;Ok;Ab Lgs;3;abdomen
+Tartan leather kilt;Standard;6 lbs;2;Pretty poor;Pretty poor;Average;Ab Lgs;3;abdomen
+Black mail hauberk;Standard;30 lbs;-3;Very good;Average;Ok;Ams Ch Ab Bk Lgs;4;abdomen
+Bonemail;Standard;20 lbs;3;Pretty poor;Amazingly poor;Amazingly poor;Ams Ch Ab Bk Lgs;4;abdomen
+Jazerant armour;Standard;40 lbs;3;Very good;Good;Ok;Ams Ch Ab Bk Lgs;4;abdomen
+Klatchian steel brigandine hosen;Custom;15 lbs;0;Average;Good;Extremely good;Ab Lgs;4;abdomen
+Klatchian steel lamellar chausses;Custom;17 lbs;0;Good;Average;Extremely good;Ab Lgs;4;abdomen
+Klatchian steel lamellar hosen;Custom;17 lbs;0;Good;Average;Extremely good;Ab Lgs;4;abdomen
+Klatchian steel lamellar skirt;Custom;17 lbs;0;Good;Average;Extremely good;Ab Lgs;4;abdomen
+Klatchian steel mail chausses;Custom;19 lbs;0;Excellent;Extremely good;Good;Ab Lgs;4;abdomen
+Klatchian steel mail hosen;Custom;19 lbs;0;Excellent;Extremely good;Good;Ab Lgs;4;abdomen
+Klatchian steel mail skirt;Custom;19 lbs;0;Excellent;Extremely good;Good;Ab Lgs;4;abdomen
+Klatchian steel plate chausses;Custom;22 lbs;0;Excellent;Excellent;Extremely good;Ab Lgs;4;abdomen
+Klatchian steel plate hosen;Custom;22 lbs;0;Excellent;Excellent;Extremely good;Ab Lgs;4;abdomen
+Klatchian steel plate skirt;Custom;22 lbs;0;Excellent;Excellent;Extremely good;Ab Lgs;4;abdomen
+Mail hauberk;Standard;30 lbs;-3;Extremely good;Good;Average;Ams Ch Ab Bk Lgs;4;abdomen
+Overalls;Standard;4 lbs;0;Amazingly poor;Terrible;Terrible;Ams Ch Ab Bk Lgs;4;abdomen
+Ringmail hauberk;Standard;20 lbs;3;Poor;Ok;Good;Ams Ch Ab Bk Lgs;4;abdomen
+Short scaly robe (steel);Standard;15 lbs;3;Average;Poor;Poor;Ams Ch Ab Bk Lgs;4;abdomen
+Tatami do;Standard;30 lbs;3;Poor;Ok;Good;Ams Ch Ab Bk Lgs;4;abdomen
+Brigandine armour;Standard;15 lbs;2;Ok;Average;Very good;Ch Ab Bk;5;abdomen
+Bronze cuirass;Standard;40 lbs;-2;Average;Ok;Poor;Ch Ab Bk;5;abdomen
+Chainmail minidress;Standard;15 lbs;-2;Very good;Average;Ok;Ch Ab Bk;5;abdomen
+Chainmail shirt;Standard;30 lbs;-2;Good;Average;Ok;Ch Ab Bk;5;abdomen
+Keiko;Standard;30 lbs;2;Poor;Poor;Average;Ch Ab Bk;5;abdomen
+Klatchian steel brigandine bikini top;Custom;11 lbs;0;Average;Good;Extremely good;Ch Ab;5;abdomen
+Klatchian steel brigandine brassiere;Custom;11 lbs;0;Average;Good;Extremely good;Ch Ab;5;abdomen
+Klatchian steel brigandine breastplate;Custom;11 lbs;0;Average;Good;Extremely good;Ch Ab;5;abdomen
+Klatchian steel brigandine halter;Custom;11 lbs;0;Average;Good;Extremely good;Ch Ab;5;abdomen
+Klatchian steel lamellar bikini top;Custom;11 lbs;0;Average;Good;Extremely good;Ch Ab;5;abdomen
+Klatchian steel lamellar brassiere;Custom;11 lbs;0;Average;Good;Extremely good;Ch Ab;5;abdomen
+Klatchian steel lamellar breastplate;Custom;11 lbs;0;Average;Good;Extremely good;Ch Ab;5;abdomen
+Klatchian steel lamellar halter;Custom;11 lbs;0;Average;Good;Extremely good;Ch Ab;5;abdomen
+Klatchian steel mail bikini top;Custom;17 lbs;0;Excellent;Excellent;Extremely good;Ch Ab;5;abdomen
+Klatchian steel mail brassiere;Custom;17 lbs;0;Excellent;Excellent;Extremely good;Ch Ab;5;abdomen
+Klatchian steel mail halter;Custom;17 lbs;0;Excellent;Excellent;Extremely good;Ch Ab;5;abdomen
+Klatchian steel muscled breastplate;Custom;17 lbs;0;Excellent;Excellent;Extremely good;Ch Ab;5;abdomen
+Leather brigandine bikini top;Custom;4 lbs;0;Poor;Poor;Ok;Ch Ab;5;abdomen
+Leather brigandine brassiere;Custom;4 lbs;0;Poor;Poor;Ok;Ch Ab;5;abdomen
+Leather brigandine breastplate;Custom;4 lbs;0;Poor;Poor;Ok;Ch Ab;5;abdomen
+Leather brigandine halter;Custom;4 lbs;0;Poor;Poor;Ok;Ch Ab;5;abdomen
+Leather lamellar bikini top;Custom;5 lbs;0;Poor;Poor;Ok;Ch Ab;5;abdomen
+Leather lamellar brassiere;Custom;5 lbs;0;Poor;Poor;Ok;Ch Ab;5;abdomen
+Leather lamellar breastplate;Custom;5 lbs;0;Poor;Poor;Ok;Ch Ab;5;abdomen
+Leather lamellar halter;Custom;5 lbs;0;Poor;Poor;Ok;Ch Ab;5;abdomen
+Leather muscled breastplate;Custom;6 lbs;0;Good;Average;Ok;Ch Ab;5;abdomen
+Mail shirt;Standard;15 lbs;-2;Excellent;Good;Very good;Ch Ab Bk;5;abdomen
+Scale armour;Standard;30 lbs;-2;Pretty poor;Pretty poor;Poor;Ams Ch Ab Bk;5;abdomen
+Splinted metal cuirass;Standard;30 lbs;2;Amazingly poor;Amazingly poor;Pretty poor;Ch Ab Bk;5;abdomen
+Splintmail;Standard;20 lbs;-2;Ok;Poor;Average;Ch Ab Bk;5;abdomen
+Tanko;Standard;10 lbs;2;Ok;Poor;Ok;Ch Ab Bk;5;abdomen
+Tiny chainmail shirt;Standard;7 lbs;0;Good;Ok;Ok;Ch Ab Bk;5;abdomen
+42 d-cup spikey iron breastplate;Standard;10 lbs;-2;Extremely good;Average;Ok;Ch Ab;6;abdomen
+Brass breastplate;Standard;15 lbs;-2;Very good;Average;Average;Ch Ab;6;abdomen
+Chainmail bikini;Standard;7 lbs;-1;Average;Ok;Poor;Ch Ab;6;abdomen
+Chainmail halter top;Standard;10 lbs;-2;Very good;Average;Ok;Ch Ab;6;abdomen
+Chocolate breastplate;Standard;4 lbs;2;Ok;Poor;Poor;Ch Ab;6;abdomen
+Djelian aegis;Standard;11 lbs;2;Ok;Poor;Good;Ch Ab Bk;6;abdomen
+Do maru;Standard;30 lbs;2;Very good;Good;Average;Ch Ab Bk;6;abdomen
+Hammered breastplate;Standard;15 lbs;-2;Extremely good;Good;Average;Ch Ab;6;abdomen
+Hardened leather breastplate;Standard;7 lbs;2;Ok;Average;Very good;Ch Ab;6;abdomen
+Iron breastplate;Standard;13 lbs;-2;Extremely good;Good;Average;Ch Ab;6;abdomen
+Laced-up leather breastplate;Standard;3 lbs;2;Average;Ok;Poor;Ch Ab;6;abdomen
+Leather breastplate;Standard;4 lbs;2;Average;Ok;Poor;Ch Ab;6;abdomen
+Leather jerkin;Standard;7 lbs;2;Amazingly poor;Amazingly poor;Poor;Ch Ab Bk;6;abdomen
+Mirrored breastplate;Standard;7 lbs;2;Poor;Ok;Good;Ch Ab;6;abdomen
+Padded aketon;Standard;6 lbs;2;Amazingly poor;Amazingly poor;Poor;Ch Ab Bk;6;abdomen
+Steel breastplate;Standard;13 lbs;-2;Excellent;Very good;Extremely good;Ch Ab;6;abdomen
+Studded leather jerkin;Standard;10 lbs;2;Poor;Poor;Average;Ch Ab Bk;6;abdomen
+Klatchian steel brigandine hauberk;Custom;32 lbs;0;Average;Good;Extremely good;Ams Ch Ab Bk Lgs;1;back
+Klatchian steel chain hauberk;Custom;41 lbs;0;Excellent;Extremely good;Good;Ams Ch Ab Bk Lgs;1;back
+Klatchian steel lamellar hauberk;Custom;37 lbs;0;Good;Average;Extremely good;Ams Ch Ab Bk Lgs;1;back
+Leather brigandine hauberk;Custom;13 lbs;0;Poor;Poor;Ok;Ams Ch Ab Bk Lgs;1;back
+Leather lamellar hauberk;Custom;13 lbs;0;Poor;Poor;Ok;Ams Ch Ab Bk Lgs;1;back
+Leather undershirt;Standard;2 lbs;2;Amazingly poor;Amazingly poor;Pretty poor;Ch Bk;1;back
+Klatchian steel brigandine byrnie;Custom;17 lbs;0;Average;Good;Extremely good;Ch Ab Bk;2;back
+Klatchian steel brigandine cuirass;Custom;17 lbs;0;Average;Good;Extremely good;Ch Ab Bk;2;back
+Klatchian steel brigandine haubergeon;Custom;17 lbs;0;Average;Good;Extremely good;Ch Ab Bk;2;back
+Klatchian steel brigandine jacket;Custom;17 lbs;0;Average;Good;Extremely good;Ch Ab Bk;2;back
+Klatchian steel brigandine shirt;Custom;17 lbs;0;Average;Good;Extremely good;Ch Ab Bk;2;back
+Klatchian steel lamellar byrnie;Custom;19 lbs;0;Good;Average;Extremely good;Ch Ab Bk;2;back
+Klatchian steel lamellar cuirass;Custom;19 lbs;0;Good;Average;Extremely good;Ch Ab Bk;2;back
+Klatchian steel lamellar haubergeon;Custom;19 lbs;0;Good;Average;Extremely good;Ch Ab Bk;2;back
+Klatchian steel lamellar jacket;Custom;19 lbs;0;Good;Average;Extremely good;Ch Ab Bk;2;back
+Klatchian steel lamellar shirt;Custom;19 lbs;0;Good;Average;Extremely good;Ch Ab Bk;2;back
+Klatchian steel mail byrnie;Custom;22 lbs;0;Excellent;Extremely good;Good;Ch Ab Bk;2;back
+Klatchian steel mail haubergeon;Custom;22 lbs;0;Excellent;Extremely good;Good;Ch Ab Bk;2;back
+Klatchian steel mail jacket;Custom;22 lbs;0;Excellent;Extremely good;Good;Ch Ab Bk;2;back
+Klatchian steel mail shirt;Custom;22 lbs;0;Excellent;Extremely good;Good;Ch Ab Bk;2;back
+Klatchian steel muscled cuirass;Custom;24 lbs;0;Excellent;Excellent;Extremely good;Ch Ab Bk;2;back
+Leather brigandine byrnie;Custom;6 lbs;0;Poor;Poor;Ok;Ch Ab Bk;2;back
+Leather brigandine cuirass;Custom;6 lbs;0;Poor;Poor;Ok;Ch Ab Bk;2;back
+Leather brigandine haubergeon;Custom;6 lbs;0;Poor;Poor;Ok;Ch Ab Bk;2;back
+Leather brigandine jacket;Custom;6 lbs;0;Poor;Poor;Ok;Ch Ab Bk;2;back
+Leather brigandine shirt;Custom;6 lbs;0;Poor;Poor;Ok;Ch Ab Bk;2;back
+Leather lamellar byrnie;Custom;7 lbs;0;Poor;Poor;Ok;Ch Ab Bk;2;back
+Leather lamellar cuirass;Custom;7 lbs;0;Poor;Poor;Ok;Ch Ab Bk;2;back
+Leather lamellar haubergeon;Custom;7 lbs;0;Poor;Poor;Ok;Ch Ab Bk;2;back
+Leather lamellar jacket;Custom;7 lbs;0;Poor;Poor;Ok;Ch Ab Bk;2;back
+Leather lamellar shirt;Custom;7 lbs;0;Poor;Poor;Ok;Ch Ab Bk;2;back
+Leather muscled cuirass;Custom;9 lbs;0;Good;Average;Ok;Ch Ab Bk;2;back
+Padded woolen kaftan;Standard;2 lbs;3;Amazingly poor;Amazingly poor;Ok;Ams Ch Bk;2;back
+Black mail hauberk;Standard;30 lbs;-3;Very good;Average;Ok;Ams Ch Ab Bk Lgs;3;back
+Bonemail;Standard;20 lbs;3;Pretty poor;Amazingly poor;Amazingly poor;Ams Ch Ab Bk Lgs;3;back
+Jazerant armour;Standard;40 lbs;3;Very good;Good;Ok;Ams Ch Ab Bk Lgs;3;back
+Klatchian steel brigandine backplate;Custom;5 lbs;0;Average;Good;Extremely good;Bk;3;back
+Klatchian steel lamellar backplate;Custom;5 lbs;0;Good;Average;Extremely good;Bk;3;back
+Klatchian steel muscled backplate;Custom;7 lbs;0;Excellent;Excellent;Extremely good;Bk;3;back
+Leather brigandine backplate;Custom;2 lbs;0;Poor;Poor;Ok;Bk;3;back
+Leather lamellar backplate;Custom;2 lbs;0;Poor;Poor;Ok;Bk;3;back
+Leather muscled backplate;Custom;2 lbs;0;Good;Average;Ok;Bk;3;back
+Mail hauberk;Standard;30 lbs;-3;Extremely good;Good;Average;Ams Ch Ab Bk Lgs;3;back
+Overalls;Standard;4 lbs;0;Amazingly poor;Terrible;Terrible;Ams Ch Ab Bk Lgs;3;back
+Ringmail hauberk;Standard;20 lbs;3;Poor;Ok;Good;Ams Ch Ab Bk Lgs;3;back
+Short scaly robe (steel);Standard;15 lbs;3;Average;Poor;Poor;Ams Ch Ab Bk Lgs;3;back
+Tatami do;Standard;30 lbs;3;Poor;Ok;Good;Ams Ch Ab Bk Lgs;3;back
+Fluffy cloak;Standard;6 lbs;4;Amazingly poor;Amazingly poor;Poor;Ams Ch Bk;4;back
+Grflx scale;Standard;20 lbs;3;Excellent;Excellent;Extremely good;Ams Ch Bk;4;back
+Leather jacket;Standard;7 lbs;2;Amazingly poor;Amazingly poor;Poor;Ams Ch Bk;4;back
+Scale armour;Standard;30 lbs;-2;Pretty poor;Pretty poor;Poor;Ams Ch Ab Bk;4;back
+Studded leather jacket;Standard;15 lbs;2;Poor;Poor;Average;Ams Ch Bk;4;back
+Brigandine armour;Standard;15 lbs;2;Ok;Average;Very good;Ch Ab Bk;5;back
+Bronze cuirass;Standard;40 lbs;-2;Average;Ok;Poor;Ch Ab Bk;5;back
+Chainmail minidress;Standard;15 lbs;-2;Very good;Average;Ok;Ch Ab Bk;5;back
+Chainmail shirt;Standard;30 lbs;-2;Good;Average;Ok;Ch Ab Bk;5;back
+Keiko;Standard;30 lbs;2;Poor;Poor;Average;Ch Ab Bk;5;back
+Mail shirt;Standard;15 lbs;-2;Excellent;Good;Very good;Ch Ab Bk;5;back
+Splinted metal cuirass;Standard;30 lbs;2;Amazingly poor;Amazingly poor;Pretty poor;Ch Ab Bk;5;back
+Splintmail;Standard;20 lbs;-2;Ok;Poor;Average;Ch Ab Bk;5;back
+Tanko;Standard;10 lbs;2;Ok;Poor;Ok;Ch Ab Bk;5;back
+Tiny chainmail shirt;Standard;7 lbs;0;Good;Ok;Ok;Ch Ab Bk;5;back
+Djelian aegis;Standard;11 lbs;2;Ok;Poor;Good;Ch Ab Bk;6;back
+Do maru;Standard;30 lbs;2;Very good;Good;Average;Ch Ab Bk;6;back
+Leather jerkin;Standard;7 lbs;2;Amazingly poor;Amazingly poor;Poor;Ch Ab Bk;6;back
+Padded aketon;Standard;6 lbs;2;Amazingly poor;Amazingly poor;Poor;Ch Ab Bk;6;back
+Studded leather jerkin;Standard;10 lbs;2;Poor;Poor;Average;Ch Ab Bk;6;back
+Heavy cotton breeches;Standard;0 lbs;2;Terrible;Terrible;Terrible;Ab Lgs;1;legs
+Klatchian steel brigandine hauberk;Custom;32 lbs;0;Average;Good;Extremely good;Ams Ch Ab Bk Lgs;1;legs
+Klatchian steel chain hauberk;Custom;41 lbs;0;Excellent;Extremely good;Good;Ams Ch Ab Bk Lgs;1;legs
+Klatchian steel lamellar hauberk;Custom;37 lbs;0;Good;Average;Extremely good;Ams Ch Ab Bk Lgs;1;legs
+Leather breeches;Standard;2 lbs;2;Amazingly poor;Amazingly poor;Poor;Ab Lgs;1;legs
+Leather brigandine hauberk;Custom;13 lbs;0;Poor;Poor;Ok;Ams Ch Ab Bk Lgs;1;legs
+Leather lamellar hauberk;Custom;13 lbs;0;Poor;Poor;Ok;Ams Ch Ab Bk Lgs;1;legs
+Mail hosen;Standard;20 lbs;-2;Pretty poor;Pretty poor;Average;Ab Lgs;1;legs
+Brown leather pleated skirt;Standard;5 lbs;2;Amazingly poor;Amazingly poor;Poor;Ab Lgs;2;legs
+Haidate skirt (steel);Standard;20 lbs;-2;Poor;Ok;Good;Ab Lgs;2;legs
+Klatchian steel brigandine hosen;Custom;15 lbs;0;Average;Good;Extremely good;Ab Lgs;2;legs
+Klatchian steel lamellar chausses;Custom;17 lbs;0;Good;Average;Extremely good;Ab Lgs;2;legs
+Klatchian steel lamellar hosen;Custom;17 lbs;0;Good;Average;Extremely good;Ab Lgs;2;legs
+Klatchian steel lamellar skirt;Custom;17 lbs;0;Good;Average;Extremely good;Ab Lgs;2;legs
+Klatchian steel mail chausses;Custom;19 lbs;0;Excellent;Extremely good;Good;Ab Lgs;2;legs
+Klatchian steel mail hosen;Custom;19 lbs;0;Excellent;Extremely good;Good;Ab Lgs;2;legs
+Klatchian steel mail skirt;Custom;19 lbs;0;Excellent;Extremely good;Good;Ab Lgs;2;legs
+Klatchian steel plate chausses;Custom;22 lbs;0;Excellent;Excellent;Extremely good;Ab Lgs;2;legs
+Klatchian steel plate hosen;Custom;22 lbs;0;Excellent;Excellent;Extremely good;Ab Lgs;2;legs
+Klatchian steel plate skirt;Custom;22 lbs;0;Excellent;Excellent;Extremely good;Ab Lgs;2;legs
+Leather brigandine chausses;Custom;6 lbs;0;Poor;Poor;Ok;Lgs;2;legs
+Leather brigandine hosen;Custom;6 lbs;0;Poor;Poor;Ok;Lgs;2;legs
+Leather brigandine skirt;Custom;6 lbs;0;Poor;Poor;Ok;Lgs;2;legs
+Leather kilt;Standard;6 lbs;2;Amazingly poor;Amazingly poor;Poor;Ab Lgs;2;legs
+Leather lamellar chausses;Custom;7 lbs;0;Poor;Poor;Ok;Lgs;2;legs
+Leather lamellar hosen;Custom;7 lbs;0;Poor;Poor;Ok;Lgs;2;legs
+Leather lamellar skirt;Custom;7 lbs;0;Poor;Poor;Ok;Lgs;2;legs
+Leather plate chausses;Custom;8 lbs;0;Good;Average;Ok;Lgs;2;legs
+Leather plate hosen;Custom;8 lbs;0;Good;Average;Ok;Lgs;2;legs
+Leather plate skirt;Custom;8 lbs;0;Good;Average;Ok;Lgs;2;legs
+Mail skirt;Standard;20 lbs;-2;Good;Average;Ok;Ab Lgs;2;legs
+Tartan leather kilt;Standard;6 lbs;2;Pretty poor;Pretty poor;Average;Ab Lgs;2;legs
+Black mail hauberk;Standard;30 lbs;-3;Very good;Average;Ok;Ams Ch Ab Bk Lgs;3;legs
+Bonemail;Standard;20 lbs;3;Pretty poor;Amazingly poor;Amazingly poor;Ams Ch Ab Bk Lgs;3;legs
+Jazerant armour;Standard;40 lbs;3;Very good;Good;Ok;Ams Ch Ab Bk Lgs;3;legs
+Klatchian steel brigandine greaves;Custom;10 lbs;0;Average;Good;Extremely good;Lgs;3;legs
+Klatchian steel lamellar greaves;Custom;11 lbs;0;Good;Average;Extremely good;Lgs;3;legs
+Klatchian steel mail greaves;Custom;13 lbs;0;Excellent;Extremely good;Good;Lgs;3;legs
+Klatchian steel plate greaves;Custom;13 lbs;0;Excellent;Extremely good;Good;Lgs;3;legs
+Leather brigandine greaves;Custom;4 lbs;0;Poor;Poor;Ok;Lgs;3;legs
+Leather lamellar greaves;Custom;4 lbs;0;Poor;Poor;Ok;Lgs;3;legs
+Leather plate greaves;Custom;5 lbs;0;Good;Average;Ok;Lgs;3;legs
+Mail hauberk;Standard;30 lbs;-3;Extremely good;Good;Average;Ams Ch Ab Bk Lgs;3;legs
+Overalls;Standard;4 lbs;0;Amazingly poor;Terrible;Terrible;Ams Ch Ab Bk Lgs;3;legs
+Ringmail hauberk;Standard;20 lbs;3;Poor;Ok;Good;Ams Ch Ab Bk Lgs;3;legs
+Short scaly robe (steel);Standard;15 lbs;3;Average;Poor;Poor;Ams Ch Ab Bk Lgs;3;legs
+Tatami do;Standard;30 lbs;3;Poor;Ok;Good;Ams Ch Ab Bk Lgs;3;legs
+Bronze greaves;Standard;7 lbs;-1;Average;Ok;Poor;Lgs;4;legs
+Leather greaves;Standard;3 lbs;2;Ok;Poor;Poor;Lgs;4;legs
+Metal greaves;Standard;15 lbs;-1;Excellent;Good;Extremely good;Lgs;4;legs
+Steel greaves;Standard;15 lbs;-1;Excellent;Good;Extremely good;Lgs;4;legs
+Suneate;Standard;15 lbs;1;Extremely good;Ok;Good;Lgs;4;legs
+Black armoured stockings;Standard;2 lbs;1;Amazingly poor;Amazingly poor;Poor;Ft;1;feet
+Chocolate sabatons;Standard;1 lbs;1;Ok;Ok;Poor;Ft;1;feet
+Fur-lined brown leather boots;Standard;2 lbs;2;Average;Ok;Poor;Ft;1;feet
+Griffin moccasins;Standard;0 lbs;1;Amazingly poor;Amazingly poor;Pretty poor;Ft;1;feet
+Hard leather boots;Standard;2 lbs;1;Average;Poor;Ok;Ft;1;feet
+Hobnailed boots;Standard;4 lbs;1;Pretty poor;Pretty poor;Ok;Ft;1;feet
+Kegutsu boots;Standard;1 lbs;1;Amazingly poor;Amazingly poor;Pretty poor;Ft;1;feet
+Klatchian steel brigandine boots;Custom;3 lbs;0;Average;Good;Extremely good;Ft;1;feet
+Klatchian steel brigandine chaucers;Custom;3 lbs;0;Average;Good;Extremely good;Ft;1;feet
+Klatchian steel brigandine sabatons;Custom;3 lbs;0;Average;Good;Extremely good;Ft;1;feet
+Klatchian steel brigandine socks;Custom;3 lbs;0;Average;Good;Extremely good;Ft;1;feet
+Klatchian steel lamellar boots;Custom;3 lbs;0;Good;Average;Extremely good;Ft;1;feet
+Klatchian steel lamellar chaucers;Custom;3 lbs;0;Good;Average;Extremely good;Ft;1;feet
+Klatchian steel lamellar sabatons;Custom;3 lbs;0;Good;Average;Extremely good;Ft;1;feet
+Klatchian steel lamellar socks;Custom;3 lbs;0;Good;Average;Extremely good;Ft;1;feet
+Klatchian steel mail chaucers;Custom;4 lbs;0;Excellent;Extremely good;Good;Ft;1;feet
+Klatchian steel mail socks;Custom;4 lbs;0;Excellent;Extremely good;Good;Ft;1;feet
+Klatchian steel plate boots;Custom;4 lbs;0;Excellent;Excellent;Extremely good;Ft;1;feet
+Klatchian steel plate sabatons;Custom;4 lbs;0;Excellent;Excellent;Extremely good;Ft;1;feet
+Kogaki tabi;Standard;5 lbs;1;Ok;Poor;Good;Ft;1;feet
+Leather brigandine boots;Custom;1 lbs;0;Poor;Poor;Ok;Ft;1;feet
+Leather brigandine chaucers;Custom;1 lbs;0;Poor;Poor;Ok;Ft;1;feet
+Leather brigandine sabatons;Custom;1 lbs;0;Poor;Poor;Ok;Ft;1;feet
+Leather brigandine socks;Custom;1 lbs;0;Poor;Poor;Ok;Ft;1;feet
+Leather lamellar boots;Custom;2 lbs;0;Poor;Poor;Ok;Ft;1;feet
+Leather lamellar chaucers;Custom;2 lbs;0;Poor;Poor;Ok;Ft;1;feet
+Leather lamellar sabatons;Custom;2 lbs;0;Poor;Poor;Ok;Ft;1;feet
+Leather lamellar socks;Custom;2 lbs;0;Poor;Poor;Ok;Ft;1;feet
+Leather plate boots;Custom;1 lbs;0;Good;Average;Ok;Ft;1;feet
+Leather plate sabatons;Custom;1 lbs;0;Good;Average;Ok;Ft;1;feet
+Mail chausses;Standard;6 lbs;-1;Poor;Poor;Average;Ft;1;feet
+Metal clad boots;Standard;4 lbs;-1;Average;Average;Very good;Ft;1;feet
+Obsidian boots;Standard;10 lbs;1;Ok;Ok;Poor;Ft;1;feet
+Priests;Standard;7 lbs;1;Very good;Good;Average;Ft;1;feet
+Steel sabatons;Standard;4 lbs;-1;Average;Average;Very good;Ft;1;feet
+Waraji sandals;Standard;0 lbs;1;Terrible;Terrible;Amazingly poor;Ft;1;feet
