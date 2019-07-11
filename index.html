@@ -113,42 +113,41 @@
       let total = 0;
       for (const row of table.getElementsByTagName('tbody')[0].childNodes) {
         const text = row.childNodes[column].innerHTML;
-        console.log(text.split(" ")[0]);
-        switch (text.split(" ")[0]) {
-        case "Ineffective":
+        switch (text.split(" ")[0].toLowerCase()) {
+        case "ineffective":
             break;
-        case "Terrible":
+        case "terrible":
             total += 2;
             break;
-        case "Amazingly":
+        case "amazingly":
             total += 6;
             break;
-        case "Pretty":
+        case "pretty":
             total += 10;
             break;
-        case "Poor":
+        case "poor":
             total += 14;
             break;
-        case "OK":
+        case "ok":
             total += 17;
             break;
-        case "Average":
+        case "average":
             total += 21;
             break;
-        case "Good":
+        case "good":
             total += 25;
             break;
-        case "Very":
+        case "very":
             total += 29;
             break;
-        case "Extremely":
+        case "extremely":
             total += 32;
             break;
-        case "Excellent":
+        case "excellent":
             total += 37;
             break;
         default:
-            console.log("Vurdere value unknown, check csv input");
+            console.warn("Vurdere value unknown, check csv input");
         }
       }
       table.querySelectorAll('tfoot > tr')[0].childNodes[column].innerHTML = total;
