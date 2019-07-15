@@ -18,52 +18,85 @@
 <body style="margin:0;font-family:helvetica;background-color:#e0e0e0;display:flex;justify-content:center">
   <div style="background-color:#fff;padding:1rem 2rem">
     <h1>Equipment Mannequin</h1>
-    <h2>Equipment</h2>
+    <h2>Coverage</h2>
     <div id="equipment">
-      <h3>Head</h3>
-      <table id="head" style="display:none;"><tbody></tbody></table>
-      <h3>Neck</h3>
-      <table id="neck" style="display:none;"><tbody></tbody></table>
-      <h3>Arms</h3>
-      <table id="arms" style="display:none;"><tbody></tbody></table>
-      <h3>Hands</h3>
-      <table id="hands" style="display:none;"><tbody></tbody></table>
-      <h3>Chest</h3>
-      <table id="chest" style="display:none;"><tbody></tbody></table>
-      <h3>Abdomen</h3>
-      <table id="abdomen" style="display:none;"><tbody></tbody></table>
-      <h3>Back</h3>
-      <table id="back" style="display:none;"><tbody></tbody></table>
-      <h3>Legs</h3>
-      <table id="legs" style="display:none;"><tbody></tbody></table>
-      <h3>Feet</h3>
-      <table id="feet" style="display:none;"><tbody></tbody></table>
+      <div id="hair-container" style="display:none">
+        <h3>Hair</h3>
+        <table id="hr"><tbody></tbody></table>
+      </div>
+      <div id="hair-container" style="display:none">
+        <h3>Head</h3>
+        <table id="he"><tbody></tbody></table>
+      </div>
+      <div id="hair-container" style="display:none">
+        <h3>Eyes</h3>
+        <table id="ey"><tbody></tbody></table>
+      </div>
+      <div id="hair-container" style="display:none">
+        <h3>Face</h3>
+        <table id="fa"><tbody></tbody></table>
+      </div>
+      <div id="hair-container" style="display:none">
+        <h3>Neck</h3>
+        <table id="ne"><tbody></tbody></table>
+      </div>
+      <div id="hair-container" style="display:none">
+        <h3>Arms</h3>
+        <table id="ar"><tbody></tbody></table>
+      </div>
+      <div id="hair-container" style="display:none">
+        <h3>Hands</h3>
+        <table id="hd"><tbody></tbody></table>
+      </div>
+      <div id="hair-container" style="display:none">
+        <h3>Chest</h3>
+        <table id="ch"><tbody></tbody></table>
+      </div>
+      <div id="hair-container" style="display:none">
+        <h3>Abdomen</h3>
+        <table id="ab"><tbody></tbody></table>
+      </div>
+      <div id="hair-container" style="display:none">
+        <h3>Back</h3>
+        <table id="ba"><tbody></tbody></table>
+      </div>
+      <div id="hair-container" style="display:none">
+        <h3>Legs</h3>
+        <table id="le"><tbody></tbody></table>
+      </div>
+      <div id="hair-container" style="display:none">
+        <h3>Feet</h3>
+        <table id="fe"><tbody></tbody></table>
+      </div>
     </div>
     <div style="display:flex;justify-content:center">
       <h2>Armour for</h2>
       <select id="area-filter" style="margin: auto 0.5rem;font-size:1rem;font-weight:bold">
         <option value="-">Everywhere</option>
-        <option value="head">Head</option>
-        <option value="neck">Neck</option>
-        <option value="arms">Arms</option>
-        <option value="hands">Hands</option>
-        <option value="chest">Chest</option>
-        <option value="abdomen">Abdomen</option>
-        <option value="back">Back</option>
-        <option value="legs">Legs</option>
-        <option value="feet">Feet</option>
+        <option value="ab">Abdomen</option>
+        <option value="ar">Arms</option>
+        <option value="ba">Back</option>
+        <option value="ch">Chest</option>
+        <option value="ey">Eyes</option>
+        <option value="fa">Face</option>
+        <option value="fe">Feet</option>
+        <option value="hr">Hair</option>
+        <option value="hd">Hands</option>
+        <option value="he">Head</option>
+        <option value="le">Legs</option>
+        <option value="ne">Neck</option>
       </select>
     </div>
     <table id="armours"></table>
   </div>
   <script type="text/javascript">
-    const csvUrl = "armours.csv";
+    const csvUrl = "newarmours.csv";
 
     document.getElementById('area-filter').addEventListener("change",(e) => {
       const selection = e.target.selectedOptions[0].value;
       const table = document.getElementById('armours');
       for (const row of table.querySelectorAll('tbody > tr')) {
-        if (row.childNodes[9].innerHTML === selection || selection === "-") {
+        if (row.childNodes[9].innerHTML.toLowerCase().includes(selection) || selection === "-") {
           row.style.display = null;
           continue;
         }
@@ -113,42 +146,7 @@
       let total = 0;
       for (const row of table.getElementsByTagName('tbody')[0].childNodes) {
         const text = row.childNodes[column].innerHTML;
-        switch (text.split(" ")[0].toLowerCase()) {
-        case "ineffective":
-            break;
-        case "terrible":
-            total += 2;
-            break;
-        case "amazingly":
-            total += 6;
-            break;
-        case "pretty":
-            total += 10;
-            break;
-        case "poor":
-            total += 14;
-            break;
-        case "ok":
-            total += 17;
-            break;
-        case "average":
-            total += 21;
-            break;
-        case "good":
-            total += 25;
-            break;
-        case "very":
-            total += 29;
-            break;
-        case "extremely":
-            total += 32;
-            break;
-        case "excellent":
-            total += 37;
-            break;
-        default:
-            console.warn("Vurdere value unknown, check csv input");
-        }
+        total += parseInt(text.split(" ")[0]);
       }
       table.querySelectorAll('tfoot > tr')[0].childNodes[column].innerHTML = total;
     }
@@ -156,45 +154,54 @@
     const updateWeight = (table) => {
       let total = 0;
       for (const row of table.getElementsByTagName('tbody')[0].childNodes) {
-        const text = row.childNodes[2].innerHTML;
-        total += parseInt(text.split(" ")[0]);
+        const text = row.childNodes[1].innerHTML;
+        const fraction = text.split(" ");
+        let whole = 0;
+        let part = 0;
+        if (fraction.length > 1) {
+          const p = fraction[1].split("/");
+          part = parseInt(p[0]) / parseInt(p[1]);
+        }
+        if (fraction[0].includes("/")) {
+          const p = fraction[0].split("/");
+          part = parseInt(p[0]) / parseInt(p[1]);
+        } else {
+          whole = parseInt(fraction[0]);
+        }
+        total += whole + part;
       }
+      total = +(Math.round(total+'e2')+'e-2');
       total += " lbs";
-      table.querySelectorAll('tfoot > tr')[0].childNodes[2].innerHTML = total;
-    }
-
-    const updateTemp = (table) => {
-      let total = 0;
-      for (const row of table.getElementsByTagName('tbody')[0].childNodes) {
-        const text = row.childNodes[3].innerHTML;
-        total += parseInt(text);
-      }
-      table.querySelectorAll('tfoot > tr')[0].childNodes[3].innerHTML = total;
+      table.querySelectorAll('tfoot > tr')[0].childNodes[1].innerHTML = total;
     }
 
     const updateTable = (table) => {
       if(table.rows.length < 3) {
-        table.style.display = "none";
+        table.closest('div').style.display = "none";
         return;
       }
 
-      table.style.display = "table";
+      table.closest('div').style.display = "block";
+      updateVurdere(table, 3);
       updateVurdere(table, 4);
       updateVurdere(table, 5);
-      updateVurdere(table, 6);
       updateWeight(table);
-      updateTemp(table);
     }
 
-    const addRowToTable = (row) => {
+    const addRowToTable = (row, tableName) => {
       const cells = row.getElementsByTagName('td');
-      const targetLayer = cells[9].innerHTML;
-      const targetTable = document.getElementById(targetLayer);
+      const targetTable = document.getElementById(tableName);
       const targetRow = targetTable.querySelectorAll('tbody')[0].insertRow(-1);
       for (const cell of cells) {
-        targetRow.insertCell(-1).innerHTML = cell.innerHTML;
+        const equippedCell = targetRow.insertCell(-1);
+        equippedCell.innerHTML = cell.innerHTML;
+        if (equippedCell.cellIndex > 9) {
+          equippedCell.style.display = "none";
+        }
       }
-      const unequipBox = targetRow.childNodes[10].firstChild;
+      const unequipCell = targetRow.childNodes[22];
+      unequipCell.style.display = "table";
+      const unequipBox = unequipCell.firstChild;
       unequipBox.addEventListener('click', unequipRow);
       updateTable(targetTable);
     }
@@ -214,12 +221,13 @@
 
     const equipRow = (e) => {
       const row = e.target.closest('tr');
-      const equipName = row.childNodes[0].innerHTML;
-      for (const tRow of row.parentNode.childNodes) {
-        const currentItem = tRow.childNodes[0].innerHTML;
-        if (currentItem === equipName) {
-          addRowToTable(tRow);
+      const coverage = row.childNodes;
+      for (let i = 10; i < coverage.length - 1; i++) {
+        const area = coverage[i].innerHTML.toLowerCase().trim();
+        if (area === '') {
+          continue;
         }
+        addRowToTable(row, area);
       }
     }
 
@@ -227,17 +235,21 @@
       for (const table of document.getElementById("equipment").getElementsByTagName('table')) {
         const header = table.createTHead().insertRow(-1);
         for (const csvValue of csvHeader) {
-          header.insertCell(-1).innerHTML = csvValue;
+          const headerCell = header.insertCell(-1);
+          headerCell.innerHTML = csvValue;
+          if (headerCell.cellIndex > 9) {
+            headerCell.style.display = "none";
+          }
         }
         header.insertCell(-1).innerHTML = 'Unequip';
         const footer = table.createTFoot().insertRow(-1);
         footer.insertCell(-1).innerHTML = 'Total';
+        footer.insertCell(-1).innerHTML = '0';
         footer.insertCell(-1);
         footer.insertCell(-1).innerHTML = '0';
         footer.insertCell(-1).innerHTML = '0';
         footer.insertCell(-1).innerHTML = '0';
-        footer.insertCell(-1).innerHTML = '0';
-        footer.insertCell(-1).innerHTML = '0';
+        footer.insertCell(-1);
         footer.insertCell(-1);
         footer.insertCell(-1);
         footer.insertCell(-1);
@@ -257,13 +269,21 @@
       for (const csvRow of csvArray) {
         const row = table.insertRow(-1);
         for (const csvValue of csvRow) {
-          row.insertCell(-1).innerHTML = csvValue;
+          const cell = row.insertCell(-1);
+          cell.innerHTML = csvValue;
+          if (cell.cellIndex > 9) {
+            cell.style.display = "none";
+          }
         }
         row.insertCell(-1).innerHTML = '<button class="equip">x</button>';
       }
       const header = table.createTHead().insertRow(-1);
       for (const csvValue of csvHeader) {
-        header.insertCell(-1).innerHTML = csvValue;
+        const cell = header.insertCell(-1);
+        cell.innerHTML = csvValue;
+        if (cell.cellIndex > 9) {
+          cell.style.display = "none";
+        }
       }
       header.insertCell(-1).innerHTML = 'Equip';
 
