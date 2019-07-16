@@ -13,60 +13,72 @@
   tbody > tr:nth-of-type(2n+1) {
     background-color: #f9f9f9;
   }
+
+  table {
+    font-size: 0.9rem;
+  }
 </style>
 </head>
 <body style="margin:0;font-family:helvetica;background-color:#e0e0e0;display:flex;justify-content:center">
   <div style="background-color:#fff;padding:1rem 2rem">
     <h1>Equipment Mannequin</h1>
-    <h2>Coverage</h2>
-    <div id="equipment">
-      <div id="hair-container" style="display:none">
-        <h3>Hair</h3>
-        <table id="hr"><tbody></tbody></table>
+    <div style="display:flex;justify-content:space-between">
+      <div>
+        <h2>Coverage</h2>
+        <div id="equipment">
+          <div id="hair-container" style="display:none">
+            <h3>Hair</h3>
+            <table id="hr"><tbody></tbody></table>
+          </div>
+          <div id="hair-container" style="display:none">
+            <h3>Head</h3>
+            <table id="he"><tbody></tbody></table>
+          </div>
+          <div id="hair-container" style="display:none">
+            <h3>Eyes</h3>
+            <table id="ey"><tbody></tbody></table>
+          </div>
+          <div id="hair-container" style="display:none">
+            <h3>Face</h3>
+            <table id="fa"><tbody></tbody></table>
+          </div>
+          <div id="hair-container" style="display:none">
+            <h3>Neck</h3>
+            <table id="ne"><tbody></tbody></table>
+          </div>
+          <div id="hair-container" style="display:none">
+            <h3>Arms</h3>
+            <table id="ar"><tbody></tbody></table>
+          </div>
+          <div id="hair-container" style="display:none">
+            <h3>Hands</h3>
+            <table id="hd"><tbody></tbody></table>
+          </div>
+          <div id="hair-container" style="display:none">
+            <h3>Chest</h3>
+            <table id="ch"><tbody></tbody></table>
+          </div>
+          <div id="hair-container" style="display:none">
+            <h3>Abdomen</h3>
+            <table id="ab"><tbody></tbody></table>
+          </div>
+          <div id="hair-container" style="display:none">
+            <h3>Back</h3>
+            <table id="ba"><tbody></tbody></table>
+          </div>
+          <div id="hair-container" style="display:none">
+            <h3>Legs</h3>
+            <table id="le"><tbody></tbody></table>
+          </div>
+          <div id="hair-container" style="display:none">
+            <h3>Feet</h3>
+            <table id="fe"><tbody></tbody></table>
+          </div>
+        </div>
       </div>
-      <div id="hair-container" style="display:none">
-        <h3>Head</h3>
-        <table id="he"><tbody></tbody></table>
-      </div>
-      <div id="hair-container" style="display:none">
-        <h3>Eyes</h3>
-        <table id="ey"><tbody></tbody></table>
-      </div>
-      <div id="hair-container" style="display:none">
-        <h3>Face</h3>
-        <table id="fa"><tbody></tbody></table>
-      </div>
-      <div id="hair-container" style="display:none">
-        <h3>Neck</h3>
-        <table id="ne"><tbody></tbody></table>
-      </div>
-      <div id="hair-container" style="display:none">
-        <h3>Arms</h3>
-        <table id="ar"><tbody></tbody></table>
-      </div>
-      <div id="hair-container" style="display:none">
-        <h3>Hands</h3>
-        <table id="hd"><tbody></tbody></table>
-      </div>
-      <div id="hair-container" style="display:none">
-        <h3>Chest</h3>
-        <table id="ch"><tbody></tbody></table>
-      </div>
-      <div id="hair-container" style="display:none">
-        <h3>Abdomen</h3>
-        <table id="ab"><tbody></tbody></table>
-      </div>
-      <div id="hair-container" style="display:none">
-        <h3>Back</h3>
-        <table id="ba"><tbody></tbody></table>
-      </div>
-      <div id="hair-container" style="display:none">
-        <h3>Legs</h3>
-        <table id="le"><tbody></tbody></table>
-      </div>
-      <div id="hair-container" style="display:none">
-        <h3>Feet</h3>
-        <table id="fe"><tbody></tbody></table>
+      <div>
+        <h2 style="text-align:right">Equipped</h2>
+        <table id="equipped"><tbody></tbody></table>
       </div>
     </div>
     <div style="display:flex;justify-content:center">
@@ -89,209 +101,5 @@
     </div>
     <table id="armours"></table>
   </div>
-  <script type="text/javascript">
-    const csvUrl = "newarmours.csv";
-
-    document.getElementById('area-filter').addEventListener("change",(e) => {
-      const selection = e.target.selectedOptions[0].value;
-      const table = document.getElementById('armours');
-      for (const row of table.querySelectorAll('tbody > tr')) {
-        if (row.childNodes[9].innerHTML.toLowerCase().includes(selection) || selection === "-") {
-          row.style.display = null;
-          continue;
-        }
-        row.style.display = "none";
-      }
-    });
-
-    const parseCsv = async ( strData, strDelimiter ) => {
-      strDelimiter = (strDelimiter || ",");
-
-      var objPattern = new RegExp(
-        (
-          "(\\" + strDelimiter + "|\\r?\\n|\\r|^)" +
-          "(?:\"([^\"]*(?:\"\"[^\"]*)*)\"|" +
-          "([^\"\\" + strDelimiter + "\\r\\n]*))"
-        ),
-        "gi"
-      );
-
-      var arrData = [[]];
-      var arrMatches = null;
-
-      while (arrMatches = objPattern.exec( strData )){
-        var strMatchedDelimiter = arrMatches[ 1 ];
-        if (
-          strMatchedDelimiter.length &&
-          strMatchedDelimiter !== strDelimiter
-        ){
-          arrData.push( [] );
-        }
-
-        var strMatchedValue;
-        if (arrMatches[ 2 ]){
-          strMatchedValue = arrMatches[ 2 ].replace(
-            new RegExp( "\"\"", "g" ),
-            "\""
-          );
-        } else {
-          strMatchedValue = arrMatches[ 3 ];
-        }
-        arrData[ arrData.length - 1 ].push( strMatchedValue );
-      }
-      return( arrData );
-    }
-
-    const updateVurdere = (table, column) => {
-      let total = 0;
-      for (const row of table.getElementsByTagName('tbody')[0].childNodes) {
-        const text = row.childNodes[column].innerHTML;
-        total += parseInt(text.split(" ")[0]);
-      }
-      table.querySelectorAll('tfoot > tr')[0].childNodes[column].innerHTML = total;
-    }
-
-    const updateWeight = (table) => {
-      let total = 0;
-      for (const row of table.getElementsByTagName('tbody')[0].childNodes) {
-        const text = row.childNodes[1].innerHTML;
-        const fraction = text.split(" ");
-        let whole = 0;
-        let part = 0;
-        if (fraction.length > 1) {
-          const p = fraction[1].split("/");
-          part = parseInt(p[0]) / parseInt(p[1]);
-        }
-        if (fraction[0].includes("/")) {
-          const p = fraction[0].split("/");
-          part = parseInt(p[0]) / parseInt(p[1]);
-        } else {
-          whole = parseInt(fraction[0]);
-        }
-        total += whole + part;
-      }
-      total = +(Math.round(total+'e2')+'e-2');
-      total += " lbs";
-      table.querySelectorAll('tfoot > tr')[0].childNodes[1].innerHTML = total;
-    }
-
-    const updateTable = (table) => {
-      if(table.rows.length < 3) {
-        table.closest('div').style.display = "none";
-        return;
-      }
-
-      table.closest('div').style.display = "block";
-      updateVurdere(table, 3);
-      updateVurdere(table, 4);
-      updateVurdere(table, 5);
-      updateWeight(table);
-    }
-
-    const addRowToTable = (row, tableName) => {
-      const cells = row.getElementsByTagName('td');
-      const targetTable = document.getElementById(tableName);
-      const targetRow = targetTable.querySelectorAll('tbody')[0].insertRow(-1);
-      for (const cell of cells) {
-        const equippedCell = targetRow.insertCell(-1);
-        equippedCell.innerHTML = cell.innerHTML;
-        if (equippedCell.cellIndex > 9) {
-          equippedCell.style.display = "none";
-        }
-      }
-      const unequipCell = targetRow.childNodes[22];
-      unequipCell.style.display = "table";
-      const unequipBox = unequipCell.firstChild;
-      unequipBox.addEventListener('click', unequipRow);
-      updateTable(targetTable);
-    }
-
-    const unequipRow = (e) => {
-      const row = e.target.closest('tr');
-      const equipName = row.childNodes[0].innerHTML;
-      for (const tRow of row.closest('#equipment').querySelectorAll('tbody > tr')) {
-        const currentItem = tRow.childNodes[0].innerHTML;
-        if (currentItem === equipName) {
-          const table = tRow.closest('table');
-          tRow.parentNode.removeChild(tRow);
-          updateTable(table);
-        }
-      }
-    }
-
-    const equipRow = (e) => {
-      const row = e.target.closest('tr');
-      const coverage = row.childNodes;
-      for (let i = 10; i < coverage.length - 1; i++) {
-        const area = coverage[i].innerHTML.toLowerCase().trim();
-        if (area === '') {
-          continue;
-        }
-        addRowToTable(row, area);
-      }
-    }
-
-    const setupEquipmentTables = (csvHeader) => {
-      for (const table of document.getElementById("equipment").getElementsByTagName('table')) {
-        const header = table.createTHead().insertRow(-1);
-        for (const csvValue of csvHeader) {
-          const headerCell = header.insertCell(-1);
-          headerCell.innerHTML = csvValue;
-          if (headerCell.cellIndex > 9) {
-            headerCell.style.display = "none";
-          }
-        }
-        header.insertCell(-1).innerHTML = 'Unequip';
-        const footer = table.createTFoot().insertRow(-1);
-        footer.insertCell(-1).innerHTML = 'Total';
-        footer.insertCell(-1).innerHTML = '0';
-        footer.insertCell(-1);
-        footer.insertCell(-1).innerHTML = '0';
-        footer.insertCell(-1).innerHTML = '0';
-        footer.insertCell(-1).innerHTML = '0';
-        footer.insertCell(-1);
-        footer.insertCell(-1);
-        footer.insertCell(-1);
-        footer.insertCell(-1);
-        footer.insertCell(-1);
-      }
-    }
-
-    const request = async () => {
-      const response = await fetch(csvUrl);
-      const csv = await response.text();
-      const csvArray = await parseCsv(csv,';');
-      const csvHeader = csvArray.shift();
-
-      setupEquipmentTables(csvHeader);
-
-      const table = document.getElementById("armours");
-      for (const csvRow of csvArray) {
-        const row = table.insertRow(-1);
-        for (const csvValue of csvRow) {
-          const cell = row.insertCell(-1);
-          cell.innerHTML = csvValue;
-          if (cell.cellIndex > 9) {
-            cell.style.display = "none";
-          }
-        }
-        row.insertCell(-1).innerHTML = '<button class="equip">x</button>';
-      }
-      const header = table.createTHead().insertRow(-1);
-      for (const csvValue of csvHeader) {
-        const cell = header.insertCell(-1);
-        cell.innerHTML = csvValue;
-        if (cell.cellIndex > 9) {
-          cell.style.display = "none";
-        }
-      }
-      header.insertCell(-1).innerHTML = 'Equip';
-
-      for (const node of document.querySelectorAll('.equip')) {
-        node.addEventListener('click', equipRow);
-      }
-    }
-
-    request();
-  </script>
+  <script type="text/javascript" src="script.js"></script>
 </body>
