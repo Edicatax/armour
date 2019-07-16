@@ -90,18 +90,14 @@ const highlightDuplicates = (table) => {
     const newLayers = row.childNodes[8].innerHTML.trim().split(" ");
     layers.push(...newLayers);
   }
-  console.log(layers);
   for (const row of rows) {
     const layersToCheck = row.childNodes[8].innerHTML.trim().split(" ");
     for (const layer of layersToCheck) {
       if (layers.indexOf(layer) == layers.lastIndexOf(layer)) {
         row.style.color = "#000";
-        console.log('single');
         continue;
       }
       row.style.color = "#f00";
-      console.log('duplicate');
-      console.log(layer);
       break;
     }
   }
