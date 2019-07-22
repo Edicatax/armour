@@ -12,6 +12,12 @@ document.getElementById('area-filter').addEventListener("change",(e) => {
   }
 });
 
+document.getElementById('strength').addEventListener("change", (e) => {
+  const equippedWeight = parseInt(document.getElementById('equippedweight').innerHTML);
+  recalculateBurden(equippedWeight);
+  updateUrl();
+});
+
 const parseCsv = async ( strData, strDelimiter ) => {
   strDelimiter = (strDelimiter || ",");
 
@@ -50,6 +56,27 @@ const parseCsv = async ( strData, strDelimiter ) => {
   return( arrData );
 }
 
+const updateUrl = () => {
+  if (!history.replaceState) {
+    // We don't have a way to replace history state
+    return;
+  }
+  const baseUrl = window.location.protocol + "//" + window.location.host + window.location.pathname;
+
+  const str = parseInt(document.getElementById('strength').value);
+  const equipmentRows = document.querySelectorAll('#equipped tbody > tr');
+  let equipment = '';
+  for (const row of equipmentRows) {
+    equipment += row.childNodes[0].innerHTML.trim().toLowerCase() + ';';
+  }
+  const encodedEquipment = btoa(equipment);
+
+  const parameters = '?str=' + str + '&equips=' + encodedEquipment;
+  const newurl = baseUrl + parameters;
+  // Replace the current history state with the new url
+  window.history.replaceState({path:newurl},'',newurl);
+}
+
 const updateVurdere = (table, column) => {
   let total = 0;
   for (const row of table.getElementsByTagName('tbody')[0].childNodes) {
@@ -57,6 +84,21 @@ const updateVurdere = (table, column) => {
     total += parseInt(text.split(" ")[0]);
   }
   table.querySelectorAll('tfoot > tr')[0].childNodes[column].innerHTML = total;
+}
+
+const roundWeight = (value) => {
+  return +(Math.round(value+'e2')+'e-2');
+}
+
+const recalculateBurden = (carriedWeight) => {
+  const str = parseInt(document.getElementById('strength').value);
+  // Calculation from https://dwwiki.mooo.com/wiki/Burden
+  const maxCapacity = roundWeight((((str * str) / 5) + str + 20) * 1.89);
+  const unusedCapacity = roundWeight(maxCapacity - carriedWeight);
+  const wornWeight = carriedWeight / 2;
+  const burden = roundWeight((wornWeight / maxCapacity) * 100);
+  document.getElementById('unusedcap').value = unusedCapacity + " Lbs";
+  document.getElementById('burden').value = burden + "%";
 }
 
 const updateWeight = (table) => {
@@ -78,7 +120,8 @@ const updateWeight = (table) => {
     }
     total += whole + part;
   }
-  total = +(Math.round(total+'e2')+'e-2');
+  total = roundWeight(total);
+  recalculateBurden(total);
   total += " lbs";
   table.querySelectorAll('tfoot > tr')[0].childNodes[1].innerHTML = total;
 }
@@ -119,6 +162,7 @@ const updateEquipment = () => {
   const table = document.getElementById("equipped");
   updateWeight(table);
   highlightDuplicates(table);
+  updateUrl();
 }
 
 const addRowToEquipment = (row) => {
@@ -213,7 +257,9 @@ const setupEquipmentTables = (csvHeader) => {
   header.insertCell(-1).innerHTML = 'Unequip';
   const footer = table.createTFoot().insertRow(-1);
   footer.insertCell(-1).innerHTML = 'Total';
-  footer.insertCell(-1).innerHTML = '0';
+  const weightCell = footer.insertCell(-1);
+  weightCell.innerHTML = '0';
+  weightCell.id = 'equippedweight';
   footer.insertCell(-1);
   footer.insertCell(-1);
   footer.insertCell(-1);
@@ -228,6 +274,20 @@ const shouldHideEquipmentCell = (cell) => {
 
 const shouldHideArmourCell = (cell) => {
   return cell.cellIndex > 9;
+}
+
+const setupUrlParameters = () => {
+  const url = new URL(window.location.href);
+  const str = url.searchParams.get('str');
+  const equips = atob(url.searchParams.get('equips')).split(';');
+  const armours = document.querySelectorAll('#armours tbody > tr');
+  for (const row of armours) {
+    const armourName = row.childNodes[0].innerHTML.trim().toLowerCase();
+    if (equips.includes(armourName)) {
+      equipRow({target:row.childNodes[0]});
+    }
+  }
+  document.getElementById('strength').value = str;
 }
 
 const request = async () => {
@@ -263,6 +323,8 @@ const request = async () => {
   for (const node of document.querySelectorAll('.equip')) {
     node.addEventListener('click', equipRow);
   }
+
+  setupUrlParameters();
 }
 
 request();
