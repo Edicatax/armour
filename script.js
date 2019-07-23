@@ -79,11 +79,12 @@ const updateUrl = () => {
 
 const updateVurdere = (table, column) => {
   let total = 0;
-  for (const row of table.getElementsByTagName('tbody')[0].childNodes) {
+  for (const row of table.childNodes) {
     const text = row.childNodes[column].innerHTML;
     total += parseInt(text.split(" ")[0]);
   }
-  table.querySelectorAll('tfoot > tr')[0].childNodes[column].innerHTML = total;
+  const header = document.querySelectorAll('#' + table.id + "head > tr")[0];
+  header.childNodes[column - 2].innerHTML = total;
 }
 
 const roundWeight = (value) => {
@@ -147,12 +148,15 @@ const highlightDuplicates = (table) => {
 }
 
 const updateTable = (table) => {
-  if(table.rows.length < 3) {
-    table.closest('div').style.display = "none";
+  const header = document.getElementById(table.id + "head");
+  if(table.rows.length < 1) {
+    table.style.display = "none";
+    header.style.display = "none";
     return;
   }
 
-  table.closest('div').style.display = "block";
+  table.style.display = "";
+  header.style.display = "";
   updateVurdere(table, 3);
   updateVurdere(table, 4);
   updateVurdere(table, 5);
@@ -186,7 +190,7 @@ const addRowToEquipment = (row) => {
 const addRowToTable = (row, tableName) => {
   const cells = row.getElementsByTagName('td');
   const targetTable = document.getElementById(tableName);
-  const targetRow = targetTable.querySelectorAll('tbody')[0].insertRow(-1);
+  const targetRow = targetTable.insertRow(-1);
   for (const cell of cells) {
     const equippedCell = targetRow.insertCell(-1);
     equippedCell.innerHTML = cell.innerHTML;
@@ -203,7 +207,7 @@ const unequipRow = (e) => {
   for (const tRow of document.getElementById('equipment').querySelectorAll('tbody > tr')) {
     const currentItem = tRow.childNodes[0].innerHTML;
     if (currentItem === equipName) {
-      const table = tRow.closest('table');
+      const table = tRow.closest('tbody');
       tRow.parentNode.removeChild(tRow);
       updateTable(table);
     }
@@ -226,25 +230,15 @@ const equipRow = (e) => {
 }
 
 const setupEquipmentTables = (csvHeader) => {
-  for (const table of document.getElementById("equipment").getElementsByTagName('table')) {
-    const header = table.createTHead().insertRow(-1);
-    for (const csvValue of csvHeader) {
-      const headerCell = header.insertCell(-1);
-      headerCell.innerHTML = csvValue;
-      if (shouldHideEquipmentCell(headerCell)) {
-        headerCell.style.display = "none";
-      }
+  const equipmentHeader = document.getElementById('equipmentHeader').insertRow(-1);
+  for (const csvValue of csvHeader) {
+    const headerCell = equipmentHeader.insertCell(-1);
+    headerCell.innerHTML = csvValue;
+    if (shouldHideEquipmentCell(headerCell)) {
+      headerCell.style.display = "none";
     }
-    const footer = table.createTFoot().insertRow(-1);
-    footer.insertCell(-1).innerHTML = 'Total';
-    footer.insertCell(-1);
-    footer.insertCell(-1).style.display = "none";
-    footer.insertCell(-1).innerHTML = '0';
-    footer.insertCell(-1).innerHTML = '0';
-    footer.insertCell(-1).innerHTML = '0';
-    footer.insertCell(-1);
-    footer.insertCell(-1);
   }
+
   const table = document.getElementById("equipped");
   const header = table.createTHead().insertRow(-1);
   for (const csvValue of csvHeader) {
@@ -260,9 +254,7 @@ const setupEquipmentTables = (csvHeader) => {
   const weightCell = footer.insertCell(-1);
   weightCell.innerHTML = '0';
   weightCell.id = 'equippedweight';
-  footer.insertCell(-1);
-  footer.insertCell(-1);
-  footer.insertCell(-1);
+  footer.insertCell(-1).colSpan = 3;
 }
 const shouldHideEquippedCell = (cell) => {
   return cell.cellIndex > 9 || ( cell.cellIndex > 1 && cell.cellIndex < 8 );
@@ -278,7 +270,7 @@ const shouldHideArmourCell = (cell) => {
 
 const setupUrlParameters = () => {
   const url = new URL(window.location.href);
-  const str = url.searchParams.get('str');
+  const str = url.searchParams.get('str') || 13;
   const equips = atob(url.searchParams.get('equips')).split(';');
   const armours = document.querySelectorAll('#armours tbody > tr');
   for (const row of armours) {
