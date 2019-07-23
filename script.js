@@ -66,7 +66,8 @@ const updateUrl = () => {
   }
   const baseUrl = window.location.protocol + "//" + window.location.host + window.location.pathname;
 
-  const str = parseInt(document.getElementById('strength').value);
+  const str = parseInt(document.getElementById('strength').value) || 13;
+  const otherWeight = parseInt(document.getElementById('otherWeight').value) || 20;
   const equipmentRows = document.querySelectorAll('#equipped tbody > tr');
   let equipment = '';
   for (const row of equipmentRows) {
@@ -74,7 +75,7 @@ const updateUrl = () => {
   }
   const encodedEquipment = btoa(equipment);
 
-  const parameters = '?str=' + str + '&equips=' + encodedEquipment;
+  const parameters = '?str=' + str + '&other=' + otherWeight + '&equips=' + encodedEquipment;
   const newurl = baseUrl + parameters;
   // Replace the current history state with the new url
   window.history.replaceState({path:newurl},'',newurl);
@@ -275,6 +276,7 @@ const shouldHideArmourCell = (cell) => {
 const setupUrlParameters = () => {
   const url = new URL(window.location.href);
   const str = url.searchParams.get('str') || 13;
+  const otherWeight = url.searchParams.get('other') || 20;
   const equips = atob(url.searchParams.get('equips')).split(';');
   // Equips' last element is an empty string, remove that
   equips.pop();
@@ -286,6 +288,7 @@ const setupUrlParameters = () => {
     }
   }
   document.getElementById('strength').value = str;
+  document.getElementById('otherWeight').value = str;
 }
 
 const request = async () => {
