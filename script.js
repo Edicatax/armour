@@ -12,11 +12,14 @@ document.getElementById('area-filter').addEventListener("change",(e) => {
   }
 });
 
-document.getElementById('strength').addEventListener("change", (e) => {
+const onStatChange = (e) => {
   const equippedWeight = parseInt(document.getElementById('equippedweight').innerHTML);
   recalculateBurden(equippedWeight);
   updateUrl();
-});
+}
+
+document.getElementById('strength').addEventListener("change", onStatChange);
+document.getElementById('otherWeight').addEventListener("change", onStatChange);
 
 const parseCsv = async ( strData, strDelimiter ) => {
   strDelimiter = (strDelimiter || ",");
