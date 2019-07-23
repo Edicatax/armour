@@ -288,7 +288,7 @@ const setupUrlParameters = () => {
     }
   }
   document.getElementById('strength').value = str;
-  document.getElementById('otherWeight').value = str;
+  document.getElementById('otherWeight').value = otherWeight;
 }
 
 const request = async () => {
