@@ -37,11 +37,11 @@ Bone helm ;4 8/9;bone ;10 pretty poor ;6 amazingly poor ;6 amazingly poor ;6.7 ;
 Bonemail ;20 8/9;bone ;10 pretty poor ;6 amazingly poor ;6 amazingly poor ;73.3 ;26;hauberk ;Ab Ar Ba Ch Le ;Ab ;Ar ;Ba ;Ch ;;;;;;;Le ;
 Brass alchemists' goggles ; 8/9;leather ;6 amazingly poor ;6 amazingly poor ;14 poor ;3.3 ;32;mask ;Ey Fa ;;;;;Ey ;Fa ;;;;;;
 Brass breastplate ;15 1/9;brass ;29 very good ;21 average ;21 average ;30;47;breastplate ;Ab Ch ;Ab ;;;Ch ;;;;;;;;
-Bronze cuirass‎ ;12 2/3;bronze ;21 average ;17 ok ;14 poor ;33.3 ;46;backplate breastplate ;Ab Ba Ch ;Ab ;;Ba ;Ch ;;;;;;;;
+Bronze cuirass;12 2/3;bronze ;21 average ;17 ok ;14 poor ;33.3 ;46;backplate breastplate ;Ab Ba Ch ;Ab ;;Ba ;Ch ;;;;;;;;
 Bronze greaves ;7 2/9;bronze ;21 average ;17 ok ;14 poor ;20;48;greaves ;Le ;;;;;;;;;;;Le ;
 Bronze helm ;5    ;bronze ;21 average ;17 ok ;14 poor ;6.7 ;23;helm ;Hr He ;;;;;;;;Hr ;;He ;;
-Bronze scale armour‎ ;30    ;bronze ;10 pretty poor ;10 pretty poor ;14 poor ;53.3 ;20;backplate breastplate bracers ;Ab Ar Ba Ch ;Ab ;Ar ;Ba ;Ch ;;;;;;;;
-Bronze vambraces‎ ;8 1/3;bronze ;25 good ;17 ok ;17 ok ;20;47;bracers ;Ar ;;Ar ;;;;;;;;;;
+Bronze scale armour;30    ;bronze ;10 pretty poor ;10 pretty poor ;14 poor ;53.3 ;20;backplate breastplate bracers ;Ab Ar Ba Ch ;Ab ;Ar ;Ba ;Ch ;;;;;;;;
+Bronze vambraces;8 1/3;bronze ;25 good ;17 ok ;17 ok ;20;47;bracers ;Ar ;;Ar ;;;;;;;;;;
 Brown leather pleated skirt ;5    ;leather ;6 amazingly poor ;6 amazingly poor ;14 poor ;33.3 ;58;skirt ;Ab Le ;Ab ;;;;;;;;;;Le ;
 Burgonet ;6    ;steel ;37 excellent ;25 good ;32 extremely good ;6.7 ;35;helm ;Hr He ;;;;;;;;Hr ;;He ;;
 Cervilliere ;6    ;steel ;37 excellent ;25 good ;32 extremely good ;6.7 ;35;helm ;Hr He ;;;;;;;;Hr ;;He ;;
@@ -51,14 +51,14 @@ Chainmail bikini top ;1 5/9;iron ;25 good ;17 ok ;14 poor ;16.7 ;200;bra ;Ch ;;;
 Chainmail halter top ;7 7/9;iron ;29 very good ;21 average ;17 ok ;30;86;breastplate ;Ab Ch ;Ab ;;;Ch ;;;;;;;;
 Chainmail minidress ;16 2/3;iron ;29 very good ;21 average ;17 ok ;33.3 ;45;cuirass ;Ab Ba Ch ;Ab ;;Ba ;Ch ;;;;;;;;
 Chainmail miniskirt ;11 1/9;iron ;29 very good ;25 good ;17 ok ;13.3 ;28;suspender-belt ;Ab ;Ab ;;;;;;;;;;;
-Chainmail shirt‎ ;28 4/9;iron ;29 very good ;25 good ;17 ok ;33.3 ;28;cuirass ;Ab Ba Ch ;Ab ;;Ba ;Ch ;;;;;;;;
+Chainmail shirt;28 4/9;iron ;29 very good ;25 good ;17 ok ;33.3 ;28;cuirass ;Ab Ba Ch ;Ab ;;Ba ;Ch ;;;;;;;;
 Chainmail skirt ;14 8/9;steel ;32 extremely good ;25 good ;21 average ;33.3 ;58;skirt ;Ab Le ;Ab ;;;;;;;;;;Le ;
 Climbing gloves ;1 1/3;leather ;6 amazingly poor ;6 amazingly poor ;10 pretty poor ;6.7 ;37;gloves ;Hd ;;;;;;;;;Hd ;;;
-Clompy boots‎ ;3 1/3;leather ;21 average ;14 poor ;17 ok ;6.7 ;35;boots ;Fe ;;;;;;;Fe ;;;;;
-Close helm‎ ;7    ;steel ;37 excellent ;25 good ;32 extremely good ;6.7 ;30;helm ;Hr He ;;;;;;;;Hr ;;He ;;
+Clompy boots;3 1/3;leather ;21 average ;14 poor ;17 ok ;6.7 ;35;boots ;Fe ;;;;;;;Fe ;;;;;
+Close helm;7    ;steel ;37 excellent ;25 good ;32 extremely good ;6.7 ;30;helm ;Hr He ;;;;;;;;Hr ;;He ;;
 Coat of brigandine armour ;14 4/9;leather ;17 ok ;21 average ;29 very good ;33.3 ;51;cuirass ;Ab Ba Ch ;Ab ;;Ba ;Ch ;;;;;;;;
 Coat of bronze scale armour ;30    ;bronze ;10 pretty poor ;10 pretty poor ;14 poor ;53.3 ;20;backplate breastplate bracers ;Ab Ar Ba Ch ;Ab ;Ar ;Ba ;Ch ;;;;;;;;
-Coat of jazerant armour‎ ;44 4/9;iron ;29 very good ;21 average ;17 ok ;73.3 ;37;hauberk ;Ab Ar Ba Ch Le ;Ab ;Ar ;Ba ;Ch ;;;;;;;Le ;
+Coat of jazerant armour;44 4/9;iron ;29 very good ;21 average ;17 ok ;73.3 ;37;hauberk ;Ab Ar Ba Ch Le ;Ab ;Ar ;Ba ;Ch ;;;;;;;Le ;
 Corded sode ;3 7/9;copper ;6 amazingly poor ;10 pretty poor ;14 poor ;3.3 ;9;collar ;Ne;;;;;;;;;;;;Ne
 Dark grflx hide boots ;2 7/9;leather ;25 good ;17 ok ;17 ok ;6.7 ;47;boots ;Fe ;;;;;;;Fe ;;;;;
 darkened leather scale boots (U) ;1 1/3;leather ;14 poor ;14 poor ;17 ok ;6.7 ;75;boots ;Fe ;;;;;;;Fe ;;;;;
@@ -67,23 +67,23 @@ darkened leather scale breastplate (U) ;4 7/9;leather ;14 poor ;14 poor ;17 ok ;
 darkened leather scale gloves (U) ; 2/3;leather ;14 poor ;14 poor ;17 ok ;6.7 ;151;gloves ;Hd ;;;;;;;;;Hd ;;;
 darkened leather scale greaves (U) ;4    ;leather ;14 poor ;14 poor ;17 ok ;20;75;greaves ;Le ;;;;;;;;;;;Le ;
 Djelian aegis ;11 1/9;steel ;17 ok ;14 poor ;25 good ;33.3 ;56;backplate breastplate ;Ab Ba Ch ;Ab ;;Ba ;Ch ;;;;;;;;
-Djelian loincloth belt‎ ;4    ;steel ;29 very good ;25 good ;17 ok ;13.3 ;79;suspender-belt ;Ab ;Ab ;;;;;;;;;;;
+Djelian loincloth belt;4    ;steel ;29 very good ;25 good ;17 ok ;13.3 ;79;suspender-belt ;Ab ;Ab ;;;;;;;;;;;
 Do maru ;33 1/3;iron ;29 very good ;25 good ;21 average ;33.3 ;25;backplate breastplate ;Ab Ba Ch ;Ab ;;Ba ;Ch ;;;;;;;;
 Dwarfish goggles ;1 1/9;leather ;6 amazingly poor ;6 amazingly poor ;14 poor ;0;0;goggles ;Ey ;;;;;Ey ;;;;;;;
 Fluffy cloak ;5    ;wool ;6 amazingly poor ;6 amazingly poor ;14 poor ;73.3 ;127;cloak ;Ab Ar Ba Ch Le ;Ab ;Ar ;Ba ;Ch ;;;;;;;Le ;
 Fluffy helmet ;4 4/9;steel ;37 excellent ;29 very good ;25 good ;6.7 ;46;helm ;Hr He ;;;;;;;;Hr ;;He ;;
 Fur-lined brown leather boots ;2    ;leather ;21 average ;17 ok ;14 poor ;6.7 ;58;boots ;Fe ;;;;;;;Fe ;;;;;
 Fur-lined leather cap with earflaps ;2    ;leather ;6 amazingly poor ;6 amazingly poor ;14 poor ;6.7 ;29;helm ;Hr He ;;;;;;;;Hr ;;He ;;
-Gigantic dog collar‎ ;1 2/3;leather ;21 average ;17 ok ;14 poor ;3.3 ;34;collar ;Ne;;;;;;;;;;;;Ne
+Gigantic dog collar;1 2/3;leather ;21 average ;17 ok ;14 poor ;3.3 ;34;collar ;Ne;;;;;;;;;;;;Ne
 Gleaming grflx leather leggings ;5 5/9;leather ;25 good ;17 ok ;17 ok ;33.3 ;118;leggings ;Ab Le ;Ab ;;;;;;;;;;Le ;
 Gloves ;4 4/9;steel ;37 excellent ;25 good ;32 extremely good ;6.7 ;47;gloves ;Hd ;;;;;;;;;Hd ;;;
-Great helm‎ ;8 8/9;steel ;37 excellent ;25 good ;32 extremely good ;6.7 ;24;helm ;Hr He ;;;;;;;;Hr ;;He ;;
+Great helm;8 8/9;steel ;37 excellent ;25 good ;32 extremely good ;6.7 ;24;helm ;Hr He ;;;;;;;;Hr ;;He ;;
 Grey leather boots ;2    ;leather ;21 average ;17 ok ;14 poor ;6.7 ;58;boots ;Fe ;;;;;;;Fe ;;;;;
-Grey leather cloak‎ ;5    ;leather ;6 amazingly poor ;6 amazingly poor ;10 pretty poor ;73.3 ;108;cloak ;Ab Ar Ba Ch Le ;Ab ;Ar ;Ba ;Ch ;;;;;;;Le ;
-Grey leather gloves‎ ; 5/9;leather ;6 amazingly poor ;6 amazingly poor ;14 poor ;6.7 ;105;gloves ;Hd ;;;;;;;;;Hd ;;;
-Grey leather hat‎ ;1 1/9;leather ;17 ok ;14 poor ;14 poor ;6.7 ;90;helm ;Hr He ;;;;;;;;Hr ;;He ;;
-Grey leather shirt‎ ;2 7/9;leather ;6 amazingly poor ;6 amazingly poor ;10 pretty poor ;43.3 ;114;collar shirt ;Ar Ba Ch Ne;;Ar ;Ba ;Ch ;;;;;;;;Ne
-Grey leather trousers‎ ;5    ;leather ;21 average ;17 ok ;14 poor ;33.3 ;115;leggings ;Ab Le ;Ab ;;;;;;;;;;Le ;
+Grey leather cloak;5    ;leather ;6 amazingly poor ;6 amazingly poor ;10 pretty poor ;73.3 ;108;cloak ;Ab Ar Ba Ch Le ;Ab ;Ar ;Ba ;Ch ;;;;;;;Le ;
+Grey leather gloves; 5/9;leather ;6 amazingly poor ;6 amazingly poor ;14 poor ;6.7 ;105;gloves ;Hd ;;;;;;;;;Hd ;;;
+Grey leather hat;1 1/9;leather ;17 ok ;14 poor ;14 poor ;6.7 ;90;helm ;Hr He ;;;;;;;;Hr ;;He ;;
+Grey leather shirt;2 7/9;leather ;6 amazingly poor ;6 amazingly poor ;10 pretty poor ;43.3 ;114;collar shirt ;Ar Ba Ch Ne;;Ar ;Ba ;Ch ;;;;;;;;Ne
+Grey leather trousers;5    ;leather ;21 average ;17 ok ;14 poor ;33.3 ;115;leggings ;Ab Le ;Ab ;;;;;;;;;;Le ;
 Grflx scale ;24 4/9;grflx scale ;37 excellent ;37 excellent ;32 extremely good ;40;58;jacket ;Ar Ba Ch ;;Ar ;Ba ;Ch ;;;;;;;;
 Haidate skirt (brass) ;20    ;brass ;10 pretty poor ;14 poor ;21 average ;33.3 ;25;skirt ;Ab Le ;Ab ;;;;;;;;;;Le ;
 Haidate skirt (steel) ;20    ;steel ;17 ok ;21 average ;29 very good ;33.3 ;37;skirt ;Ab Le ;Ab ;;;;;;;;;;Le ;
@@ -91,21 +91,21 @@ Hammered breastplate ;14 2/9;iron ;32 extremely good ;25 good ;21 average ;30;55
 Hard leather boots ;2 7/9;leather ;21 average ;14 poor ;17 ok ;6.7 ;42;boots ;Fe ;;;;;;;Fe ;;;;;
 Hard leather cap ;1 2/3;leather ;21 average ;14 poor ;17 ok ;6.7 ;70;helm ;Hr He ;;;;;;;;Hr ;;He ;;
 Hardened leather breastplate ;6 1/3;leather ;25 good ;17 ok ;17 ok ;30;93;breastplate ;Ab Ch ;Ab ;;;Ch ;;;;;;;;
-Heavy face mask‎ ;7    ;iron ;29 very good ;21 average ;21 average ;3.3 ;11;mask ;Ey Fa ;;;;;Ey ;Fa ;;;;;;
+Heavy face mask;7    ;iron ;29 very good ;21 average ;21 average ;3.3 ;11;mask ;Ey Fa ;;;;;Ey ;Fa ;;;;;;
 Hexagonally-linked kikko ;27 7/9;iron ;29 very good ;21 average ;17 ok ;40;32;jacket ;Ar Ba Ch ;;Ar ;Ba ;Ch ;;;;;;;;
-High heel boots‎ ;6 2/3;iron ;29 very good ;25 good ;21 average ;6.7 ;25;boots ;Fe ;;;;;;;Fe ;;;;;
+High heel boots;6 2/3;iron ;29 very good ;25 good ;21 average ;6.7 ;25;boots ;Fe ;;;;;;;Fe ;;;;;
 Hobnailed boots ;3 4/9;iron ;14 poor ;14 poor ;17 ok ;6.7 ;29;boots ;Fe ;;;;;;;Fe ;;;;;
-Horned dwarfish helmet‎ ;5    ;iron ;17 ok ;14 poor ;21 average ;6.7 ;23;helm ;Hr He ;;;;;;;;Hr ;;He ;;
-Horned helm‎ ;5    ;iron ;29 very good ;25 good ;21 average ;6.7 ;34;helm ;Hr He ;;;;;;;;Hr ;;He ;;
-Horsehair-crested bronze helm‎ ;6 2/3;bronze ;25 good ;17 ok ;17 ok ;10;30;helm mask ;Ey Fa Hr He ;;;;;Ey ;Fa ;;Hr ;;He ;;
+Horned dwarfish helmet;5    ;iron ;17 ok ;14 poor ;21 average ;6.7 ;23;helm ;Hr He ;;;;;;;;Hr ;;He ;;
+Horned helm;5    ;iron ;29 very good ;25 good ;21 average ;6.7 ;34;helm ;Hr He ;;;;;;;;Hr ;;He ;;
+Horsehair-crested bronze helm;6 2/3;bronze ;25 good ;17 ok ;17 ok ;10;30;helm mask ;Ey Fa Hr He ;;;;;Ey ;Fa ;;Hr ;;He ;;
 Iron breastplate ;14 2/9;iron ;32 extremely good ;25 good ;21 average ;30;55;breastplate ;Ab Ch ;Ab ;;;Ch ;;;;;;;;
 Iron gauntlets ;3 1/3;iron ;14 poor ;14 poor ;21 average ;6.7 ;33;gloves ;Hd ;;;;;;;;;Hd ;;;
-Iron protective‎ ;3 1/3;iron ;29 very good ;21 average ;17 ok ;13.3 ;89;suspender-belt ;Ab ;Ab ;;;;;;;;;;;
+Iron protective;3 1/3;iron ;29 very good ;21 average ;17 ok ;13.3 ;89;suspender-belt ;Ab ;Ab ;;;;;;;;;;;
 Jagged crown ;7    ;steel ;37 excellent ;25 good ;32 extremely good ;6.7 ;30;helm ;Hr He ;;;;;;;;Hr ;;He ;;
 Kabuto helm ;8 8/9;iron ;29 very good ;25 good ;21 average ;10;28;coif ;Hr He Ne;;;;;;;;Hr ;;He ;;Ne
 Kegutsu boots ;1 2/3;leather ;6 amazingly poor ;6 amazingly poor ;14 poor ;6.7 ;35;boots ;Fe ;;;;;;;Fe ;;;;;
 Keiko ;28 2/9;iron ;14 poor ;14 poor ;21 average ;33.3 ;19;backplate breastplate ;Ab Ba Ch ;Ab ;;Ba ;Ch ;;;;;;;;
-Kettle helm‎ ;7    ;steel ;37 excellent ;25 good ;32 extremely good ;6.7 ;30;helm ;Hr He ;;;;;;;;Hr ;;He ;;
+Kettle helm;7    ;steel ;37 excellent ;25 good ;32 extremely good ;6.7 ;30;helm ;Hr He ;;;;;;;;Hr ;;He ;;
 Klatchian steel breastplate (U) ;17 1/9;klatchian steel ;37 excellent ;37 excellent ;32 extremely good ;30;62;breastplate ;Ab Ch ;Ab ;;;Ch ;;;;;;;;
 klatchian steel chain hosen (U) ;20    ;klatchian steel ;37 excellent ;32 extremely good ;25 good ;33.3 ;52;leggings ;Ab Le ;Ab ;;;;;;;;;;Le ;
 klatchian steel chain shirt (U) ;22    ;klatchian steel ;37 excellent ;32 extremely good ;25 good ;40;57;shirt ;Ar Ba Ch ;;Ar ;Ba ;Ch ;;;;;;;;
@@ -127,34 +127,34 @@ Kote (steel) ;5    ;steel ;17 ok ;21 average ;29 very good ;20;89;bracers ;Ar ;;
 Laced grflx leather jerkin ;5 5/9;leather ;21 average ;17 ok ;14 poor ;33.3 ;104;cuirass ;Ab Ba Ch ;Ab ;;Ba ;Ch ;;;;;;;;
 Laced-up leather breastplate ;3    ;leather ;21 average ;17 ok ;14 poor ;30;173;breastplate ;Ab Ch ;Ab ;;;Ch ;;;;;;;;
 Leather bevor ;1 5/9;leather ;21 average ;14 poor ;14 poor ;3.3 ;35;collar ;Ne;;;;;;;;;;;;Ne
-Leather boxer shorts‎ ;1 1/3;leather ;6 amazingly poor ;6 amazingly poor ;14 poor ;13.3 ;86;underwear ;Ab ;Ab ;;;;;;;;;;;
+Leather boxer shorts;1 1/3;leather ;6 amazingly poor ;6 amazingly poor ;14 poor ;13.3 ;86;underwear ;Ab ;Ab ;;;;;;;;;;;
 Leather breastplate ;3 1/3;leather ;21 average ;17 ok ;14 poor ;30;156;breastplate ;Ab Ch ;Ab ;;;Ch ;;;;;;;;
 Leather breeches ;2 2/9;leather ;6 amazingly poor ;6 amazingly poor ;14 poor ;33.3 ;130;leggings ;Ab Le ;Ab ;;;;;;;;;;Le ;
 leather brigandine bracers (U) ;2    ;leather ;14 poor ;14 poor ;17 ok ;20;150;bracers ;Ar ;;Ar ;;;;;;;;;;
 Leather gloves ; 8/9;leather ;6 amazingly poor ;6 amazingly poor ;10 pretty poor ;6.7 ;55;gloves ;Hd ;;;;;;;;;Hd ;;;
 Leather gorget ;1 7/9;leather ;17 ok ;14 poor ;17 ok ;3.3 ;30;collar ;Ne;;;;;;;;;;;;Ne
 Leather greaves ;2 2/3;leather ;17 ok ;14 poor ;14 poor ;20;113;greaves ;Le ;;;;;;;;;;;Le ;
-Leather jacket‎ ;6 2/3;leather ;6 amazingly poor ;6 amazingly poor ;14 poor ;40;52;jacket ;Ar Ba Ch ;;Ar ;Ba ;Ch ;;;;;;;;
+Leather jacket;6 2/3;leather ;6 amazingly poor ;6 amazingly poor ;14 poor ;40;52;jacket ;Ar Ba Ch ;;Ar ;Ba ;Ch ;;;;;;;;
 Leather jerkin ;6 2/3;leather ;6 amazingly poor ;6 amazingly poor ;14 poor ;33.3 ;43;cuirass backplate breastplate ;Ab Ba Ch ;Ab ;;Ba ;Ch ;;;;;;;;
-Leather kilt‎ ;6 1/9;leather ;6 amazingly poor ;6 amazingly poor ;14 poor ;33.3 ;47;skirt ;Ab Le ;Ab ;;;;;;;;;;Le ;
+Leather kilt;6 1/9;leather ;6 amazingly poor ;6 amazingly poor ;14 poor ;33.3 ;47;skirt ;Ab Le ;Ab ;;;;;;;;;;Le ;
 leather plate gorget (U) ; 8/9;leather ;25 good ;21 average ;17 ok ;3.3 ;78;collar ;Ne;;;;;;;;;;;;Ne
 Leather protective ;1 5/9;leather ;17 ok ;17 ok ;14 poor ;13.3 ;137;suspender-belt ;Ab ;Ab ;;;;;;;;;;;
-Leather sandals‎ ;1 1/9;leather ;17 ok ;14 poor ;10 pretty poor ;6.7 ;82;boots ;Fe ;;;;;;;Fe ;;;;;
+Leather sandals;1 1/9;leather ;17 ok ;14 poor ;10 pretty poor ;6.7 ;82;boots ;Fe ;;;;;;;Fe ;;;;;
 leather scale bikini top (U) ;4 7/9;leather ;14 poor ;14 poor ;17 ok ;20;63;ug-top ;Ba Ch ;;;Ba ;Ch ;;;;;;;;
 leather scale coif (U) ;2    ;leather ;14 poor ;14 poor ;17 ok ;10;75;coif ;Hr He Ne;;;;;;;;Hr ;;He ;;Ne
 leather scale halter (U) ;4 7/9;leather ;14 poor ;14 poor ;17 ok ;20;63;ug-top ;Ba Ch ;;;Ba ;Ch ;;;;;;;;
-Leather shirt‎ ;2 4/9;leather ;6 amazingly poor ;6 amazingly poor ;14 poor ;40;142;shirt ;Ar Ba Ch ;;Ar ;Ba ;Ch ;;;;;;;;
+Leather shirt;2 4/9;leather ;6 amazingly poor ;6 amazingly poor ;14 poor ;40;142;shirt ;Ar Ba Ch ;;Ar ;Ba ;Ch ;;;;;;;;
 Leather shoes ;1 1/3;leather ;17 ok ;14 poor ;10 pretty poor ;6.7 ;69;boots ;Fe ;;;;;;;Fe ;;;;;
 Leather undershirt ;2    ;leather ;6 amazingly poor ;6 amazingly poor ;10 pretty poor ;20;73;undershirt ;Ba Ch ;;;Ba ;Ch ;;;;;;;;
 Leather vambraces ;1 7/9;leather ;14 poor ;10 pretty poor ;14 poor ;20;143;bracers ;Ar ;;Ar ;;;;;;;;;;
-Leather-strap gloves‎ ; 2/3;leather ;6 amazingly poor ;6 amazingly poor ;14 poor ;6.7 ;87;gloves ;Hd ;;;;;;;;;Hd ;;;
+Leather-strap gloves; 2/3;leather ;6 amazingly poor ;6 amazingly poor ;14 poor ;6.7 ;87;gloves ;Hd ;;;;;;;;;Hd ;;;
 Lion paws ;2 2/9;klatchian steel ;2 terrible ;2 terrible ;2 terrible ;6.7 ;6;gloves ;Hd ;;;;;;;;;Hd ;;;
 lustrous klatchian steel plate mail hosen (U) ;22    ;klatchian steel ;37 excellent ;37 excellent ;32 extremely good ;33.3 ;53;leggings ;Ab Le ;Ab ;;;;;;;;;;Le ;
-Mail chausses‎ ;2 7/9;iron ;14 poor ;14 poor ;21 average ;6.7 ;39;boots ;Fe ;;;;;;;Fe ;;;;;
+Mail chausses;2 7/9;iron ;14 poor ;14 poor ;21 average ;6.7 ;39;boots ;Fe ;;;;;;;Fe ;;;;;
 Mail coif ;10 2/3;iron ;25 good ;25 good ;17 ok ;10;21;coif ;Hr He Ne;;;;;;;;Hr ;;He ;;Ne
 Mail hauberk ;32 8/9;steel ;32 extremely good ;25 good ;21 average ;73.3 ;58;hauberk ;Ab Ar Ba Ch Le ;Ab ;Ar ;Ba ;Ch ;;;;;;;Le ;
 Mail hosen ;18 8/9;iron ;10 pretty poor ;10 pretty poor ;21 average ;33.3 ;24;leggings ;Ab Le ;Ab ;;;;;;;;;;Le ;
-Mail mittens‎ ;3 1/3;iron ;25 good ;21 average ;17 ok ;6.7 ;42;gloves ;Hd ;;;;;;;;;Hd ;;;
+Mail mittens;3 1/3;iron ;25 good ;21 average ;17 ok ;6.7 ;42;gloves ;Hd ;;;;;;;;;Hd ;;;
 Mail shirt ;16 2/3;steel ;37 excellent ;29 very good ;25 good ;33.3 ;61;cuirass ;Ab Ba Ch ;Ab ;;Ba ;Ch ;;;;;;;;
 Mail skirt ;17 7/9;iron ;25 good ;21 average ;17 ok ;33.3 ;39;skirt ;Ab Le ;Ab ;;;;;;;;;;Le ;
 Mempo mask ;5 5/9;steel ;37 excellent ;25 good ;32 extremely good ;3.3 ;19;mask ;Ey Fa ;;;;;Ey ;Fa ;;;;;;
@@ -163,15 +163,15 @@ Metal gauntlets ;4 4/9;steel ;37 excellent ;25 good ;32 extremely good ;6.7 ;47;
 Metal greaves ;14 4/9;steel ;37 excellent ;25 good ;32 extremely good ;20;43;greaves ;Le ;;;;;;;;;;;Le ;
 Metal helm ;9    ;iron ;29 very good ;25 good ;21 average ;6.7 ;19;helm ;Hr He ;;;;;;;;Hr ;;He ;;
 Metal helm (inner light) ;9    ;steel ;37 excellent ;25 good ;32 extremely good ;6.7 ;23;helm ;Hr He ;;;;;;;;Hr ;;He ;;
-Miner's helmet‎ ;7    ;iron ;32 extremely good ;25 good ;21 average ;6.7 ;25;helm ;Hr He ;;;;;;;;Hr ;;He ;;
+Miner's helmet;7    ;iron ;32 extremely good ;25 good ;21 average ;6.7 ;25;helm ;Hr He ;;;;;;;;Hr ;;He ;;
 Mirrored breastplate ;7 2/9;steel ;14 poor ;17 ok ;25 good ;30;78;breastplate ;Ab Ch ;Ab ;;;Ch ;;;;;;;;
-Morion‎ ;6    ;steel ;37 excellent ;25 good ;32 extremely good ;6.7 ;35;helm ;Hr He ;;;;;;;;Hr ;;He ;;
-Obsidian boots‎ ;8 8/9;stone ;17 ok ;17 ok ;14 poor ;6.7 ;12;boots ;Fe ;;;;;;;Fe ;;;;;
+Morion;6    ;steel ;37 excellent ;25 good ;32 extremely good ;6.7 ;35;helm ;Hr He ;;;;;;;;Hr ;;He ;;
+Obsidian boots;8 8/9;stone ;17 ok ;17 ok ;14 poor ;6.7 ;12;boots ;Fe ;;;;;;;Fe ;;;;;
 Offler-headed mask ;7    ;steel ;37 excellent ;37 excellent ;32 extremely good ;10;50;helm mask ;Ey Fa Hr He ;;;;;Ey ;Fa ;;Hr ;;He ;;
 Oiled suede coat ;5    ;suede ;6 amazingly poor ;6 amazingly poor ;10 pretty poor ;73.3 ;108;cloak ;Ab Ar Ba Ch Le ;Ab ;Ar ;Ba ;Ch ;;;;;;;Le ;
 Ornate black boots ;3 2/3;bone ;2 terrible ;2 terrible ;6 amazingly poor ;6.7 ;6;boots ;Fe ;;;;;;;Fe ;;;;;
 Ornate bone corslet ;22 2/9;bone ;6 amazingly poor ;6 amazingly poor ;6 amazingly poor ;63.3 ;17;bracers collar gloves backplate breastplate ;Ab Ar Ba Ch Hd Ne;Ab ;Ar ;Ba ;Ch ;;;;;Hd ;;;Ne
-Ornate bone greaves‎ ;7 7/9;bone ;6 amazingly poor ;6 amazingly poor ;6 amazingly poor ;20;15;greaves ;Le ;;;;;;;;;;;Le ;
+Ornate bone greaves;7 7/9;bone ;6 amazingly poor ;6 amazingly poor ;6 amazingly poor ;20;15;greaves ;Le ;;;;;;;;;;;Le ;
 Ornate bone helmet ;5    ;bone ;10 pretty poor ;6 amazingly poor ;6 amazingly poor ;6.7 ;10;helm ;Hr He ;;;;;;;;Hr ;;He ;;
 Ornate metal boots ;5    ;steel ;32 extremely good ;25 good ;29 very good ;6.7 ;38;boots ;Fe ;;;;;;;Fe ;;;;;
 Ornate metal breastplate ;18 2/3;steel ;29 very good ;14 poor ;32 extremely good ;30;40;breastplate ;Ab Ch ;Ab ;;;Ch ;;;;;;;;
@@ -202,32 +202,32 @@ padded leather underwear (U) ;1 2/3;leather ;10 pretty poor ;10 pretty poor ;17 
 Padded manchiru ;2    ;leather ;6 amazingly poor ;6 amazingly poor ;14 poor ;13.3 ;58;suspender-belt ;Ab ;Ab ;;;;;;;;;;;
 Padded monk's robe ;4 4/9;cloth ;14 poor ;10 pretty poor ;17 ok ;73.3 ;225;hauberk ;Ab Ar Ba Ch Le ;Ab ;Ar ;Ba ;Ch ;;;;;;;Le ;
 Padded woolen kaftan ;2 2/9;cloth ;6 amazingly poor ;6 amazingly poor ;17 ok ;40;174;shirt ;Ar Ba Ch ;;Ar ;Ba ;Ch ;;;;;;;;
-Peaked cap‎ ;2    ;steel ;37 excellent ;25 good ;32 extremely good ;6.7 ;105;helm ;Hr He ;;;;;;;;Hr ;;He ;;
-Pig-faced bascinet‎‎‎ ;6    ;steel ;37 excellent ;25 good ;32 extremely good ;13.3 ;69;helm collar mask ;Ey Fa Hr He Ne;;;;;Ey ;Fa ;;Hr ;;He ;;Ne
+Peaked cap;2    ;steel ;37 excellent ;25 good ;32 extremely good ;6.7 ;105;helm ;Hr He ;;;;;;;;Hr ;;He ;;
+Pig-faced bascinet;6    ;steel ;37 excellent ;25 good ;32 extremely good ;13.3 ;69;helm collar mask ;Ey Fa Hr He Ne;;;;;Ey ;Fa ;;Hr ;;He ;;Ne
 Plaid breeches ;6 2/3;leather ;6 amazingly poor ;6 amazingly poor ;14 poor ;33.3 ;43;leggings ;Ab Le ;Ab ;;;;;;;;;;Le ;
 Plumed bronze helm ;6 4/9;bronze ;25 good ;17 ok ;17 ok ;10;31;helm mask ;Ey Fa Hr He ;;;;;Ey ;Fa ;;Hr ;;He ;;
-Plumed imperial helmet‎ ;7 7/9;iron ;29 very good ;25 good ;21 average ;6.7 ;22;helm ;Hr He ;;;;;;;;Hr ;;He ;;
+Plumed imperial helmet;7 7/9;iron ;29 very good ;25 good ;21 average ;6.7 ;22;helm ;Hr He ;;;;;;;;Hr ;;He ;;
 Priests (armour) ;6 1/9;iron ;29 very good ;25 good ;21 average ;6.7 ;27;boots ;Fe ;;;;;;;Fe ;;;;;
 Push-up breastplate ;14 2/3;steel ;37 excellent ;29 very good ;25 good ;30;62;breastplate ;Ab Ch ;Ab ;;;Ch ;;;;;;;;
-Raven mask‎ ;5 1/3;steel ;37 excellent ;32 extremely good ;29 very good ;3.3 ;20;mask ;Ey Fa ;;;;;Ey ;Fa ;;;;;;
-Riding helmet‎ ;3    ;leather ;17 ok ;14 poor ;14 poor ;6.7 ;34;helm ;Hr He ;;;;;;;;Hr ;;He ;;
+Raven mask;5 1/3;steel ;37 excellent ;32 extremely good ;29 very good ;3.3 ;20;mask ;Ey Fa ;;;;;Ey ;Fa ;;;;;;
+Riding helmet;3    ;leather ;17 ok ;14 poor ;14 poor ;6.7 ;34;helm ;Hr He ;;;;;;;;Hr ;;He ;;
 Ringmail hauberk ;20    ;steel ;14 poor ;17 ok ;25 good ;73.3 ;68;hauberk ;Ab Ar Ba Ch Le ;Ab ;Ar ;Ba ;Ch ;;;;;;;Le ;
-Scalemail speedo‎ ;3 7/9;bronze ;6 amazingly poor ;10 pretty poor ;14 poor ;13.3 ;35;suspender-belt ;Ab ;Ab ;;;;;;;;;;;
-Set of neckirons‎ ;2 4/9;iron ;32 extremely good ;25 good ;21 average ;3.3 ;35;collar ;Ne;;;;;;;;;;;;Ne
-Set of overalls‎ ;4 4/9;cloth ;10 pretty poor ;10 pretty poor ;17 ok ;73.3 ;203;hauberk ;Ab Ar Ba Ch Le ;Ab ;Ar ;Ba ;Ch ;;;;;;;Le ;
+Scalemail speedo;3 7/9;bronze ;6 amazingly poor ;10 pretty poor ;14 poor ;13.3 ;35;suspender-belt ;Ab ;Ab ;;;;;;;;;;;
+Set of neckirons;2 4/9;iron ;32 extremely good ;25 good ;21 average ;3.3 ;35;collar ;Ne;;;;;;;;;;;;Ne
+Set of overalls;4 4/9;cloth ;10 pretty poor ;10 pretty poor ;17 ok ;73.3 ;203;hauberk ;Ab Ar Ba Ch Le ;Ab ;Ar ;Ba ;Ch ;;;;;;;Le ;
 Short leather miniskirt ; 8/9;leather ;6 amazingly poor ;6 amazingly poor ;10 pretty poor ;33.3 ;275;miniskirt ;Ab Le ;Ab ;;;;;;;;;;Le ;
-Short scaly robe‎ ;16 2/3;steel ;14 poor ;14 poor ;21 average ;73.3 ;72;hauberk ;Ab Ar Ba Ch Le ;Ab ;Ar ;Ba ;Ch ;;;;;;;Le ;
+Short scaly robe;16 2/3;steel ;14 poor ;14 poor ;21 average ;73.3 ;72;hauberk ;Ab Ar Ba Ch Le ;Ab ;Ar ;Ba ;Ch ;;;;;;;Le ;
 Silver mail shirt ;22 2/9;silver ;10 pretty poor ;6 amazingly poor ;6 amazingly poor ;73.3 ;24;hauberk ;Ab Ar Ba Ch Le ;Ab ;Ar ;Ba ;Ch ;;;;;;;Le ;
 Soft grflx leather shirt ;2 4/9;leather ;6 amazingly poor ;6 amazingly poor ;14 poor ;40;142;shirt ;Ar Ba Ch ;;Ar ;Ba ;Ch ;;;;;;;;
 Somen mask ;6 2/3;copper ;17 ok ;10 pretty poor ;14 poor ;3.3 ;7;mask ;Ey Fa ;;;;;Ey ;Fa ;;;;;;
 Spangenhelm ;6    ;steel ;37 excellent ;25 good ;32 extremely good ;6.7 ;35;helm ;Hr He ;;;;;;;;Hr ;;He ;;
-Spiked helmet‎ ;8 8/9;steel ;37 excellent ;25 good ;32 extremely good ;6.7 ;24;helm ;Hr He ;;;;;;;;Hr ;;He ;;
+Spiked helmet;8 8/9;steel ;37 excellent ;25 good ;32 extremely good ;6.7 ;24;helm ;Hr He ;;;;;;;;Hr ;;He ;;
 Splinted metal cuirass ;30 2/9;copper ;6 amazingly poor ;6 amazingly poor ;10 pretty poor ;33.3 ;8;backplate breastplate ;Ab Ba Ch ;Ab ;;Ba ;Ch ;;;;;;;;
-Splintmail‎ ;20    ;iron ;17 ok ;14 poor ;21 average ;33.3 ;29;cuirass ;Ab Ba Ch ;Ab ;;Ba ;Ch ;;;;;;;;
+Splintmail;20    ;iron ;17 ok ;14 poor ;21 average ;33.3 ;29;cuirass ;Ab Ba Ch ;Ab ;;Ba ;Ch ;;;;;;;;
 Steel bevor ;3 1/3;steel ;37 excellent ;37 excellent ;32 extremely good ;3.3 ;35;collar ;Ne;;;;;;;;;;;;Ne
 Steel breastplate ;13 1/3;steel ;37 excellent ;32 extremely good ;29 very good ;30;74;breastplate ;Ab Ch ;Ab ;;;Ch ;;;;;;;;
 Steel greaves ;13 1/3;steel ;37 excellent ;29 very good ;25 good ;20;46;greaves ;Le ;;;;;;;;;;;Le ;
-Steel sabatons‎ ;4 4/9;steel ;21 average ;21 average ;29 very good ;6.7 ;36;boots ;Fe ;;;;;;;Fe ;;;;;
+Steel sabatons;4 4/9;steel ;21 average ;21 average ;29 very good ;6.7 ;36;boots ;Fe ;;;;;;;Fe ;;;;;
 Steel vambraces ;7    ;steel ;37 excellent ;25 good ;32 extremely good ;20;90;bracers ;Ar ;;Ar ;;;;;;;;;;
 Steel-toed leather boots ;2 7/9;leather ;25 good ;21 average ;21 average ;6.7 ;54;boots ;Fe ;;;;;;;Fe ;;;;;
 Studded leather jacket ;11 1/9;leather iron ;14 poor ;14 poor ;21 average ;40;59;jacket ;Ar Ba Ch ;;Ar ;Ba ;Ch ;;;;;;;;
@@ -242,10 +242,10 @@ Tartan leather kilt ;6 1/9;leather ;6 amazingly poor ;6 amazingly poor ;14 poor 
 Tatami do ;33 1/3;iron ;14 poor ;17 ok ;25 good ;73.3 ;41;hauberk ;Ab Ar Ba Ch Le ;Ab ;Ar ;Ba ;Ch ;;;;;;;Le ;
 Tekko guards ;3 1/9;bronze ;10 pretty poor ;10 pretty poor ;14 poor ;6.7 ;24;gloves ;Hd ;;;;;;;;;Hd ;;;
 Thick dark blue waistcoat ;2    ;leather ;6 amazingly poor ;6 amazingly poor ;10 pretty poor ;20;73;waistcoat ;Ba Ch ;;;Ba ;Ch ;;;;;;;;
-Tight mail hauberk‎‎ ;38 8/9;steel ;32 extremely good ;25 good ;21 average ;73.3 ;49;hauberk ;Ab Ar Ba Ch Le ;Ab ;Ar ;Ba ;Ch ;;;;;;;Le ;
+Tight mail hauberk;38 8/9;steel ;32 extremely good ;25 good ;21 average ;73.3 ;49;hauberk ;Ab Ar Ba Ch Le ;Ab ;Ar ;Ba ;Ch ;;;;;;;Le ;
 Tsortean metal helmet ;8 8/9;steel ;37 excellent ;25 good ;32 extremely good ;6.7 ;24;helm ;Hr He ;;;;;;;;Hr ;;He ;;
 Vendel helm ;6    ;iron ;32 extremely good ;17 ok ;21 average ;6.7 ;26;helm ;Hr He ;;;;;;;;Hr ;;He ;;
-Viper mask‎‎ ;5 1/3;steel ;37 excellent ;32 extremely good ;29 very good ;3.3 ;20;mask ;Ey Fa ;;;;;Ey ;Fa ;;;;;;
-Winged helm‎ ;7    ;iron ;29 very good ;25 good ;21 average ;6.7 ;24;helm ;Hr He ;;;;;;;;Hr ;;He ;;
+Viper mask;5 1/3;steel ;37 excellent ;32 extremely good ;29 very good ;3.3 ;20;mask ;Ey Fa ;;;;;Ey ;Fa ;;;;;;
+Winged helm;7    ;iron ;29 very good ;25 good ;21 average ;6.7 ;24;helm ;Hr He ;;;;;;;;Hr ;;He ;;
 worn steel collar (U) ;2 4/9;steel ;37 excellent ;29 very good ;32 extremely good ;3.3 ;44;collar ;Ne;;;;;;;;;;;;Ne
 Yodare kake guard ;2    ;iron ;14 poor ;14 poor ;21 average ;3.3 ;27;collar ;Ne;;;;;;;;;;;;Ne
