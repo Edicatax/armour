@@ -273,6 +273,8 @@ const setupUrlParameters = () => {
   const url = new URL(window.location.href);
   const str = url.searchParams.get('str') || 13;
   const equips = atob(url.searchParams.get('equips')).split(';');
+  // Equips' last element is an empty string, remove that
+  equips.pop();
   const armours = document.querySelectorAll('#armours tbody > tr');
   for (const row of armours) {
     const armourName = row.childNodes[0].innerHTML.trim().toLowerCase();
