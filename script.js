@@ -101,7 +101,7 @@ const recalculateBurden = (carriedWeight) => {
   // Calculation from https://dwwiki.mooo.com/wiki/Burden
   const maxCapacity = roundWeight((((str * str) / 5) + str + 20) * 1.89);
   const unusedCapacity = roundWeight(maxCapacity - carriedWeight - otherWeight);
-  const wornWeight = carriedWeight / 2;
+  const wornWeight = (carriedWeight / 2) + otherWeight;
   const burden = roundWeight((wornWeight / maxCapacity) * 100);
   document.getElementById('unusedcap').value = unusedCapacity + " Lbs";
   document.getElementById('burden').value = burden + "%";
